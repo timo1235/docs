@@ -32,8 +32,6 @@
     * [Pluggable - Steckbar](cnc-steuerungen/open-cnc-shield-2/drivermodules/pluggable-steckbar.md)
     * [Pololu - Aufstecktreiber](cnc-steuerungen/open-cnc-shield-2/drivermodules/pololu-aufstecktreiber.md)
   * [PanelModules](cnc-steuerungen/open-cnc-shield-2/panelmodules.md)
-* [OPEN-CNC-Shield 1](cnc-steuerungen/open-cnc-shield-1/README.md)
-  * [Dokumentation](cnc-steuerungen/open-cnc-shield-1/dokumentation.md)
 
 ## CNC Software
 
