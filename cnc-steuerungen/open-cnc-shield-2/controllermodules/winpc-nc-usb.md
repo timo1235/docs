@@ -1,5 +1,5 @@
 ---
-cover: ../../../.gitbook/assets/controllerModule.png
+cover: ../../../.gitbook/assets/ControllerModule_trans.png
 coverY: 0
 ---
 

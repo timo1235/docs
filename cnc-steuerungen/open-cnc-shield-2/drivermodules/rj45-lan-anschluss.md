@@ -1,5 +1,5 @@
 ---
-cover: ../../../.gitbook/assets/drivermodule.png
+cover: ../../../.gitbook/assets/drivermodule_trans.png
 coverY: 0
 ---
 

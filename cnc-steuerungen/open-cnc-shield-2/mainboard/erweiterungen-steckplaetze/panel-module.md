@@ -1,7 +1,7 @@
 # Panel Module
 
 {% hint style="info" %}
-Diese Seite ist für die Entwicklung neuer Panel Module und die Fehlersuche relevant.  Für die unterschiedlichen PanelModule gibt es eigene Dokumentationsseiten. Dort werden die unterstützten Features und technische Details der einzelnen Module beschrieben. [panelmodules.md](../../panelmodules.md "mention")
+Diese Seite ist für die Entwicklung neuer Panel Module und die Fehlersuche relevant.  Für die unterschiedlichen PanelModule gibt es eigene Dokumentationsseiten. Dort werden die unterstützten Features und technische Details der einzelnen Module beschrieben. [panelmodules](../../panelmodules/ "mention")
 {% endhint %}
 
 Die Panel-Module sind für die Verbindung der Steuerung mit externen Bedienelementen wie Handräder oder Bedienpulte.

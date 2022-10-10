@@ -31,7 +31,10 @@
     * [RJ45 - LAN Anschluss](cnc-steuerungen/open-cnc-shield-2/drivermodules/rj45-lan-anschluss.md)
     * [Pluggable - Steckbar](cnc-steuerungen/open-cnc-shield-2/drivermodules/pluggable-steckbar.md)
     * [Pololu - Aufstecktreiber](cnc-steuerungen/open-cnc-shield-2/drivermodules/pololu-aufstecktreiber.md)
-  * [PanelModules](cnc-steuerungen/open-cnc-shield-2/panelmodules.md)
+  * [PanelModules](cnc-steuerungen/open-cnc-shield-2/panelmodules/README.md)
+    * [RJ45](cnc-steuerungen/open-cnc-shield-2/panelmodules/rj45.md)
+    * [D-SUB25](cnc-steuerungen/open-cnc-shield-2/panelmodules/d-sub25.md)
+    * [Breakout](cnc-steuerungen/open-cnc-shield-2/panelmodules/breakout.md)
 
 ## CNC Software
 
