@@ -34,17 +34,21 @@ Auszug aus dem Handbuch:
 
 <figure><img src="../../../../.gitbook/assets/micropod.png" alt=""><figcaption></figcaption></figure>
 
-| Micropod Pin/Funktion                               | OCS2 Anschluss     |
-| --------------------------------------------------- | ------------------ |
-| Pin 1 - freier Ausgang / Spindel                    | Spindle on/off     |
-| Pin 3,5,7,9,11,13,15,17 - Achsen X,Y,Z und 4. Achse | Achsen X,Y,Z und A |
-| Pin 19 - freier Eingang / Ref Z                     | Eingang 3          |
-| Pin 21 - Nothalt                                    | Eingang 5          |
-| Pin 23 - freier Eingang / Ref Y                     | Eingang 2          |
-| Pin 25 - freier Eingang / Ref X                     | Eingang 1          |
-| Pin 2 - freier Ausgang / Kühlung                    | Ausgang 1          |
-| Pin 4 - freier Eingang / Werzeuglängensensor        | Eingang 4          |
-| Pin 6 - freier Ausgang / Stromabsenkung             | Ausgang 2          |
-| Pin 8 - freier Ausgang / PWM                        | Spindle pwm        |
-| Pin 22 - freier Eingang / Ref A                     | Eingang 6          |
+| Micropod Pin/Funktion                                                                                                                                 | OCS2 Anschluss     |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
+| Pin 1 - freier Ausgang / Spindel                                                                                                                      | Spindle on/off     |
+| Pin 3,5,7,9,11,13,15,17 - Achsen X,Y,Z und 4. Achse                                                                                                   | Achsen X,Y,Z und A |
+| Pin 19 - freier Eingang / Ref Z                                                                                                                       | Eingang 3          |
+| Pin 21 - Nothalt                                                                                                                                      | Eingang 5          |
+| Pin 23 - freier Eingang / Ref Y                                                                                                                       | Eingang 2          |
+| Pin 25 - freier Eingang / Ref X                                                                                                                       | Eingang 1          |
+| Pin 2 - freier Ausgang / Kühlung                                                                                                                      | Ausgang 1          |
+| Pin 4 - freier Eingang / Werzeuglängensensor                                                                                                          | Eingang 4          |
+| <p>Pin 6 - freier Ausgang / Stromabsenkung<br><span data-gb-custom-inline data-tag="emoji" data-code="26a0">⚠</span>siehe kommentar unter Tabelle</p> | Ausgang 2          |
+| Pin 8 - freier Ausgang / PWM                                                                                                                          | Spindle pwm        |
+| Pin 22 - freier Eingang / Ref A                                                                                                                       | Eingang 6          |
 
+{% hint style="warning" %}
+Leider gibt der Ausgang an Pin 6 des Micropods nur 1,6V anstatt der 2,5V(welche im Datenblatt stehen) im geschalteten Zustand raus. Demnach ist entweder meine Testplatine defekt  oder das Datenblatt nicht korrekt. \
+Daraus ergibt sich, dass der Ausgang zu wenig Spannung schaltet und den meist verbauten ULN2003 Treibern auf den InOut Modulen nicht kompatibel ist. Also nicht funktioniert.
+{% endhint %}
