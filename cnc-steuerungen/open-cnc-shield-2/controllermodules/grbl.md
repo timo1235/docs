@@ -37,22 +37,26 @@ Dieser Controller ist für die Verwendung von GRBL gedacht. Es wird zusätzlich 
 
 ### Pin Mapping <a href="#undefined" id="undefined"></a>
 
-| GRBL Funktion           | OCS2 Anschluss |
-| ----------------------- | -------------- |
-| X-Limit                 | Eingang 1      |
-| Y-Limit                 | Eingang 2      |
-| Z-Limit                 | Eingang 3      |
-| Spindle Enable          | Spindle on/off |
-| Spindle                 | Spindle pwm    |
-| Spindle Direction       | Ausgang 3      |
-| Flood                   | Ausgang 2      |
-| Mist                    | Ausgang 1      |
-| Reset                   | OK             |
-| Feed hold               | Motor Start    |
-| Cycle Start             | Programm Start |
-| Safety Door             | Eingang 4      |
-| Probe input             | Eingang 5      |
-| Driver Enable / Disable | ENA - Enable   |
+| GRBL Funktion           | OCS2 Anschluss                                                                                     |
+| ----------------------- | -------------------------------------------------------------------------------------------------- |
+| X-Limit                 | Eingang 1                                                                                          |
+| Y-Limit                 | Eingang 2                                                                                          |
+| Z-Limit                 | Eingang 3                                                                                          |
+| Spindle Enable          | Spindle on/off                                                                                     |
+| Spindle                 | Spindle pwm                                                                                        |
+| Spindle Direction       | Ausgang 3                                                                                          |
+| Flood                   | Ausgang 2                                                                                          |
+| Mist                    | Ausgang 1                                                                                          |
+| Reset                   | OK                                                                                                 |
+| Feed hold               | Motor Start                                                                                        |
+| Cycle Start             | Programm Start                                                                                     |
+| Safety Door             | Eingang 4                                                                                          |
+| Probe input             | Eingang 5                                                                                          |
+| Driver Enable / Disable | ENA - Enable (:warning: nur wenn der Jumper JP1 gesteckt ist - siehe info Kommentar unter Tabelle) |
+
+{% hint style="info" %}
+Die ENA Verbindung ist über einen Jumper vorgesehen. Das hat den Grund, dass einige Softwares(zum Beispiel LaserGRBL) die Treiber nur aktivieren, wenn auch verfahren wird. Demnach haben die Motoren dann im Stillstand keinen Haltemoment. Je nach Konstruktion/CNC kann das aber Probleme bereiten. Daher kann über den Jumper eingestellt werden, ob ENA von der Software verwaltet werden kann, oder nicht.
+{% endhint %}
 
 Sämtliche ungenutzte Pins des Arduino Mega 2560 stehen in Form eines Pinout zur Verfügung:
 
