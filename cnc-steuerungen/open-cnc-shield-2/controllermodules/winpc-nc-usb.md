@@ -1,9 +1,19 @@
 ---
-cover: ../../../.gitbook/assets/ControllerModule_trans.png
+cover: ../../../.gitbook/assets/controllermodule_banner.png
 coverY: 0
 ---
 
 # WinPC NC USB
+
+<div>
+
+<figure><img src="../../../.gitbook/assets/controller winpc-2-1200px.jpg" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../../.gitbook/assets/controller winpc-4-1200px.jpg" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 Dieser Controller ist für die Verwendung mit einem WinPC NC USB Modul gedacht. Demnach wird das entsprechende [WinPC Modul](https://www.lewetz.de/de/sample-sites-2/winpc-nc/winusb) zusätzlich benötigt.
 
@@ -26,8 +36,8 @@ Dieser Controller ist für die Verwendung mit einem WinPC NC USB Modul gedacht. 
 | Spindel An/Aus Anschluss zum Schalten eines Relais / Frequenzumrichters | :white\_check\_mark:                                                                                                                                                |
 | **Externe Bedienelemente**                                              |                                                                                                                                                                     |
 | Handrad / Encoder                                                       | :x:                                                                                                                                                                 |
-| Motor Start Taster                                                      | :x:                                                                                                                                                                 |
-| Programm Start Taster                                                   | :x:                                                                                                                                                                 |
+| Motor Start Taster                                                      | :warning: Theoretisch über die Eingänge realiserbar                                                                                                                 |
+| Programm Start Taster                                                   | :warning: Theoretisch über die Eingänge realisierbar                                                                                                                |
 | OK Taster                                                               | :x:                                                                                                                                                                 |
 | Feedrate (Vorschubgeschwindigkeit)                                      | :x:                                                                                                                                                                 |
 | Rotation Speed (Spindelgeschwindigkeit)                                 | :x:                                                                                                                                                                 |

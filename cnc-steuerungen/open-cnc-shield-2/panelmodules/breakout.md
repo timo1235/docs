@@ -1,5 +1,5 @@
 ---
-cover: ../../../.gitbook/assets/panelModule_trans.png
+cover: broken-reference
 coverY: 0
 ---
 

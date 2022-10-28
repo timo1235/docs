@@ -1,5 +1,17 @@
 # Micropod
 
+<div>
+
+<figure><img src="../../../../.gitbook/assets/controller beamicon-4-1200px.jpg" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../../../.gitbook/assets/controller beamicon-7-1200px.jpg" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Dieser Controller ist für die Verwendung mit dem Beamicon Hardware gedacht. Demnach wird das entsprechende Beamicon Micropod Modul zusätzlich benötigt.
+
 ### Überblick
 
 * bis zu 6-Achsen
@@ -30,7 +42,7 @@
 
 ### Pin Mapping <a href="#undefined" id="undefined"></a>
 
-Auszug aus dem Handbuch:
+Auszug aus dem Micropod Handbuch:
 
 <figure><img src="../../../../.gitbook/assets/micropod.png" alt=""><figcaption></figcaption></figure>
 

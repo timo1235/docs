@@ -3,28 +3,25 @@ cover: ../../../.gitbook/assets/drivermodule_banner.png
 coverY: 0
 ---
 
-# RJ45 - LAN Anschluss
+# Pluggable - Steckbar
 
 <div>
 
-<figure><img src="../../../.gitbook/assets/driver rj45-2-1200px.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/driver pluggable-2-1200px.jpg" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../../.gitbook/assets/driver rj45-1200px.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/driver pluggable-4-1200px.jpg" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-Mit diesem DriverModule können externe Motortreiber über ein RJ45 Kabel verbunden werden.
+Mit diesem DriverModule können externe Motortreiber über ein Kabel verbunden werden. Die einzelnen Adern können dabei an dem Schraubstecker angeschlossen werden.
 
 ### Überblick
 
-* RJ45 Anschluss&#x20;
-* Kompatibel zu Beamicon Mapping
+* Schraubstecker
 
 ### Pinout
-
-![](<../../../.gitbook/assets/driver rj45 pin out.png>)
 
 | Pin   | Beschreibung                                                              |
 | ----- | ------------------------------------------------------------------------- |
