@@ -47,6 +47,10 @@ Die ESP32 Panel Platine ist für den Bau externer Bedienelemente gedacht. Der ES
 | Digitale Eingänge | Interne Pullups - Schalten im Standard mit GND |
 | Analoge Eingänge  | Spannung von 0-3,3V                            |
 
+Schematische Darstellung und DXF Dateien zu der Platine sind auf Github zu finden:&#x20;
+
+{% embed url="https://github.com/timo1235/cnc-werkstatt/tree/master/OPEN-CNC-Shield%202.x/ESP32%20Panel%20PCB" %}
+
 #### Stromversorgung
 
 | Scenario                                                                                                                                | Beschreibung                                                                                                                                                                      |

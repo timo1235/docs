@@ -1,5 +1,5 @@
 ---
-cover: ../../../.gitbook/assets/drivermodule_banner.png
+cover: ../../.gitbook/assets/drivermodule_banner.png
 coverY: 0
 ---
 
@@ -7,11 +7,11 @@ coverY: 0
 
 <div>
 
-<figure><img src="../../../.gitbook/assets/driver pololu-2-1200px (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/driver pololu-2-1200px (1).jpg" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../../.gitbook/assets/driver pololu-3-1200px.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/driver pololu-3-1200px.jpg" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -24,7 +24,7 @@ Mit diesem DriverModule können Aufstecktreiber verwendet werden. Es funktionier
 
 ### Pinout **/ Anschluss**
 
-<figure><img src="../../../.gitbook/assets/pololu connection.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/pololu connection.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Manchmal sind die Anschlüsse anders beschriftet. Es kann auch sein, dass die Bezeichnung 1A und 1B für eine Wicklung bzw. 2A und 2B verwendet wird.
@@ -70,6 +70,12 @@ Mit Microstepping kann man die Schritte des Motors weiter verkleinern. Ein typis
 0 bedeutet Jumper ist nicht gesetzt, 1 bedeutet Jumper ist gesetzt
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/estlcam_microstepps.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/estlcam_microstepps.jpg" alt=""><figcaption></figcaption></figure>
 
 Hier ist ein Beispiel für Estlcam. Die Mikroschritte sollten so für eine MPCNC-Fräse funktionieren. Die Jumper sind in diesem Beispiel für die x- und y-Achse auf 1/8 Schritt und für die z-Achse auf 1/4 Schritt eingestellt.
+
+### Technische Details
+
+Die schematischen Zeichnungen und DXF files zu der Platine sind auf Github zu finden:
+
+{% embed url="https://github.com/timo1235/cnc-werkstatt/tree/master/OPEN-CNC-Shield%202.x/OCS2%20modules/DriverModules/DriverModule%20Pluggable" %}

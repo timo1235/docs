@@ -1,5 +1,5 @@
 ---
-cover: ../../../.gitbook/assets/inoutmodule_banner.jpg
+cover: ../../.gitbook/assets/inoutmodule_banner.jpg
 coverY: 0
 ---
 
@@ -7,11 +7,11 @@ coverY: 0
 
 <div>
 
-<figure><img src="../../../.gitbook/assets/io spring relay-2-1200px.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/io spring relay-2-1200px.jpg" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../../.gitbook/assets/io spring relay-1200px (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/io spring relay-1200px (1).jpg" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -35,9 +35,13 @@ coverY: 0
 | maximale Spanung für Ausgänge 3 und 4     | 50V                     |
 | maximale Spannung an Eingängen            | 24V                     |
 
+Die schematischen Zeichnungen und DXF files zu der Platine sind auf Github zu finden:
+
+{% embed url="https://github.com/timo1235/cnc-werkstatt/tree/master/OPEN-CNC-Shield%202.x/OCS2%20modules/InOutModules/InOutModule%20Spring%20Relay" %}
+
 ### Jumper
 
-| Jumper                                                                                                       | Beschreibung                                                                                                                                                                                                                                                                                                                                     |
-| ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <p></p><p><img src="../../../.gitbook/assets/spring_relay_jumper.png" alt="" data-size="original"></p>       | <p>Hier kann die Spannung für COM1 und COM2 mit einem Jumper eingestellt werden.<br>- ist der Jumper in der linken Position, liegt die OCS2 Eingangsspannung an (normalerweise 24V)<br>- ist der Jumper in der rechten Position, liegen 5V an. <br>- Ohne Jumper kann eine eigene Spannung an den jeweils mittleren Pin angelegt werden.<br></p> |
-| <p></p><p><img src="../../../.gitbook/assets/spring_relay_jumper_inout.png" alt="" data-size="original"></p> | <p>Jumper für die Eingänge am Beispiel von Eingang 1:<br>- <strong>Jumper in der oberen Position:</strong> An IN1 wird geschaltet, sobald dort GND anliegt<br>- <strong>Jumper in der unteren Position:</strong> IN1 wird geschaltet, sobald eine Spannung zwischen 5-24V anliegt</p>                                                            |
+| Jumper                                                                                                    | Beschreibung                                                                                                                                                                                                                                                                                                                                     |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <p></p><p><img src="../../.gitbook/assets/spring_relay_jumper.png" alt="" data-size="original"></p>       | <p>Hier kann die Spannung für COM1 und COM2 mit einem Jumper eingestellt werden.<br>- ist der Jumper in der linken Position, liegt die OCS2 Eingangsspannung an (normalerweise 24V)<br>- ist der Jumper in der rechten Position, liegen 5V an. <br>- Ohne Jumper kann eine eigene Spannung an den jeweils mittleren Pin angelegt werden.<br></p> |
+| <p></p><p><img src="../../.gitbook/assets/spring_relay_jumper_inout.png" alt="" data-size="original"></p> | <p>Jumper für die Eingänge am Beispiel von Eingang 1:<br>- <strong>Jumper in der oberen Position:</strong> An IN1 wird geschaltet, sobald dort GND anliegt<br>- <strong>Jumper in der unteren Position:</strong> IN1 wird geschaltet, sobald eine Spannung zwischen 5-24V anliegt</p>                                                            |

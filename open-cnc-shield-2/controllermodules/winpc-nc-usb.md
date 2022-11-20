@@ -73,3 +73,9 @@ Dieser Controller ist für die Verwendung mit einem WinPC NC USB Modul gedacht. 
 | Pin 14 - frei                         | Eingang 10                    |
 
 Alle Eingänge an den Pins 10, 11, 12, 13 und 15 und die zusätzlichen Ausgänge der Pins  1, 14, 16 und 17 können freizügig definiert und den gewünschten Signalen zugeordnet werden. Im Auslieferungszustand der Software sind oben aufgeführte Signale zugeordnet.
+
+### Technische Details
+
+Die schematischen Zeichnungen und DXF files zu der Platine sind auf Github zu finden:
+
+{% embed url="https://github.com/timo1235/cnc-werkstatt/tree/master/OPEN-CNC-Shield%202.x/OCS2%20modules/ControllerModules/ControllerModule%20WinPC-NC" %}

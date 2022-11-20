@@ -63,5 +63,11 @@ Auszug aus dem Micropod Handbuch:
 
 {% hint style="warning" %}
 Leider gibt der Ausgang an Pin 6 des Micropods nur 1,6V anstatt der 2,5V(welche im Datenblatt stehen) im geschalteten Zustand raus. Demnach ist entweder meine Testplatine defekt  oder das Datenblatt nicht korrekt. \
-Daraus ergibt sich, dass der Ausgang zu wenig Spannung schaltet und den meist verbauten ULN2003 Treibern auf den InOut Modulen nicht kompatibel ist. Also nicht funktioniert.
+Daraus ergibt sich, dass der Ausgang zu wenig Spannung schaltet und mit den meist verbauten ULN2003 Treibern auf den InOut Modulen nicht kompatibel ist. Also nicht funktioniert.
 {% endhint %}
+
+### Technische Details
+
+Die schematischen Zeichnungen und DXF files zu der Platine sind auf Github zu finden:
+
+{% embed url="https://github.com/timo1235/cnc-werkstatt/tree/master/OPEN-CNC-Shield%202.x/OCS2%20modules/ControllerModules/ControllerModule%20Beamicon" %}

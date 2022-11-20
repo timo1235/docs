@@ -1,5 +1,5 @@
 ---
-cover: ../../../.gitbook/assets/controllermodule_banner.png
+cover: ../../.gitbook/assets/controllermodule_banner.png
 coverY: 0
 ---
 
@@ -7,15 +7,15 @@ coverY: 0
 
 <div>
 
-<figure><img src="../../../.gitbook/assets/DSC00670.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/DSC00670.jpg" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../../.gitbook/assets/DSC00671.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/DSC00671.jpg" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../../.gitbook/assets/DSC00755.jpg" alt=""><figcaption><p>OPEN-CNC-Shield 2 mit Estlcam ControllerModule und Arduino</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/DSC00755.jpg" alt=""><figcaption><p>OPEN-CNC-Shield 2 mit Estlcam ControllerModule und Arduino</p></figcaption></figure>
 
 </div>
 
@@ -54,7 +54,7 @@ Dieser Controller ist für die Verwendung der Software [Estlcam ](https://www.es
 
 Die Pins sind nach dem originalen Estlcam Schema angeschlossen und können auch nicht verändert werden.
 
-<figure><img src="../../../.gitbook/assets/estlcam mega pinout.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/estlcam mega pinout.png" alt=""><figcaption></figcaption></figure>
 
 Pins, welche auf dem OCS2 nicht genutzt werden, stehen auf dem Adapter als Pinout zur Verfügung. Dazu gehören:
 
@@ -62,3 +62,9 @@ Pins, welche auf dem OCS2 nicht genutzt werden, stehen auf dem Adapter als Pinou
 * Motor Stop (Funktion ist auch durch zweimaliges Auslösen von Motor Start verfügbar)
 * Programm Stop (Funktion ist auch durch zweimaliges Auslösen von Programm Start verfügbar)
 * LED X, Y, Z
+
+### Technische Details
+
+Die schematischen Zeichnungen und DXF files zu der Platine sind auf Github zu finden:
+
+{% embed url="https://github.com/timo1235/cnc-werkstatt/tree/master/OPEN-CNC-Shield%202.x/OCS2%20modules/ControllerModules/ControllerModule%20Estlcam" %}

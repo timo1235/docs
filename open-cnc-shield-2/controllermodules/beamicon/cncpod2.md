@@ -76,3 +76,9 @@ Auszug aus dem Handbuch des CncPod2:
 | Pin 16 - freier Ausgang               | Ausgang 5                                                                                       |
 | Pin 17 - freier Ausgang               | Ausgang 6                                                                                       |
 
+### Technische Details
+
+Die schematischen Zeichnungen und DXF files zu der Platine sind auf Github zu finden:
+
+{% embed url="https://github.com/timo1235/cnc-werkstatt/tree/master/OPEN-CNC-Shield%202.x/OCS2%20modules/ControllerModules/ControllerModule%20Beamicon" %}
+

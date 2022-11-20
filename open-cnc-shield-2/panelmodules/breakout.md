@@ -5,15 +5,7 @@ coverY: 0
 
 # Breakout
 
-<div>
-
-<figure><img src="../../.gitbook/assets/panel breakout-3-1200px (1).jpg" alt=""><figcaption></figcaption></figure>
-
- 
-
 <figure><img src="../../.gitbook/assets/panel breakout-1200px.jpg" alt=""><figcaption></figcaption></figure>
-
-</div>
 
 Mit diesem PanelModule stehen die Anschlüsse für ein externes Bedienelement / Handrad direkt als Schraubanschlüsse zur Verfügung.
 
@@ -29,3 +21,7 @@ Es gibt eine LED auf dem Board, welche durch den ESP32 auf dem OPEN-CNC-Shield 2
 ### Technische Details
 
 Bis auf die serielle Verbindung(ESP TX und RX) arbeiten alle Ein- und Ausgänge am D-SUB25 mit einem 5V Pegel.
+
+Die schematischen Zeichnungen und DXF files zu der Platine sind auf Github zu finden:
+
+{% embed url="https://github.com/timo1235/cnc-werkstatt/tree/master/OPEN-CNC-Shield%202.x/OCS2%20modules/PanelModules/PanelModule%20Breakout" %}

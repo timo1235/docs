@@ -1,6 +1,6 @@
 ---
 description: This is the page description
-cover: ../../../.gitbook/assets/mainboard_banner.png
+cover: ../../.gitbook/assets/mainboard_banner.png
 coverY: 0
 ---
 
@@ -29,7 +29,7 @@ Durch die Möglichkeit verschiedener Controller Module ist der Einsatz mit versc
 
 ## Board Übersicht
 
-<figure><img src="../../../.gitbook/assets/DSC00665.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/DSC00665.jpg" alt=""><figcaption></figcaption></figure>
 
 Die Hauptplatine ist in mehrere Bereiche unterteilt. Es gibt Steckplätze für folgende Module:
 
@@ -40,7 +40,11 @@ Die Hauptplatine ist in mehrere Bereiche unterteilt. Es gibt Steckplätze für f
 
 Diese werden in den nächsten Abschnitten genauer erklärt. Es müssen nicht alle Module besetzt bzw. genutzt werden. Benötigt man beispielsweise nicht alle Ein- und Ausgänge reicht es auch, nur ein InOut Module zu nutzen.
 
+### Technische Details
 
+Die schematischen Zeichnungen und DXF files zu der Platine sind auf Github zu finden:
+
+{% embed url="https://github.com/timo1235/cnc-werkstatt/tree/master/OPEN-CNC-Shield%202.x/OCS2%20mainboard" %}
 
 ###
 

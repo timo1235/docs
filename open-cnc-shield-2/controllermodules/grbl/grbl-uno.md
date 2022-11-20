@@ -1,5 +1,5 @@
 ---
-cover: ../../../../.gitbook/assets/controllermodule_banner.png
+cover: ../../../.gitbook/assets/controllermodule_banner.png
 coverY: 0
 ---
 
@@ -60,4 +60,10 @@ Die ENA Verbindung ist über einen Jumper vorgesehen. Das hat den Grund, dass ei
 
 Für ungenutzte Pins und weitere Funktionen steht ein Pinout zur Verfügung:
 
-<figure><img src="../../../../.gitbook/assets/grbl_uno_pinout.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/grbl_uno_pinout.png" alt=""><figcaption></figcaption></figure>
+
+### Technische Details
+
+Die schematischen Zeichnungen und DXF files zu der Platine sind auf Github zu finden:
+
+{% embed url="https://github.com/timo1235/cnc-werkstatt/tree/master/OPEN-CNC-Shield%202.x/OCS2%20modules/ControllerModules/ControllerModule%20GRBL%20Uno" %}

@@ -53,3 +53,7 @@ Die Pins D13 und D25 stehen zusätzlich auf der Platine als Pin Header zur Verf�
 ### Technische Details
 
 Bis auf die serielle Verbindung(ESP TX und RX) arbeiten alle Ein- und Ausgänge am D-SUB25 mit einem 5V Pegel.
+
+Die schematischen Zeichnungen und DXF files zu der Platine sind auf Github zu finden:
+
+{% embed url="https://github.com/timo1235/cnc-werkstatt/tree/master/OPEN-CNC-Shield%202.x/OCS2%20modules/PanelModules/PanelModule%20D-SUB25" %}
