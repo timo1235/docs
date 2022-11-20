@@ -79,3 +79,9 @@ Hier ist ein Beispiel für Estlcam. Die Mikroschritte sollten so für eine MPCNC
 Die schematischen Zeichnungen und DXF files zu der Platine sind auf Github zu finden:
 
 {% embed url="https://github.com/timo1235/cnc-werkstatt/tree/master/OPEN-CNC-Shield%202.x/OCS2%20modules/DriverModules/DriverModule%20Pluggable" %}
+
+### Zubehör
+
+| Bild                                                     | Beschreibung                                                                                              | Link                                                     |
+| -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| ![](<../../.gitbook/assets/ocs2 fan mount-4-1200px.jpg>) | Lüfterhalter für einen 120 mm x 120 mm Lüfter. Wird auf die Abstandsbolzen der DriverModules aufgesteckt. | [Thingiverse](https://www.thingiverse.com/thing:5643127) |
