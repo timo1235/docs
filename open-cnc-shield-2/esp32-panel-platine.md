@@ -14,7 +14,7 @@
 
  
 
-<figure><img src="../.gitbook/assets/Handrad-1200px.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Handrad-1200px (1).jpg" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -69,3 +69,9 @@ Die Firmware kann auf Github heruntergeladen werden:&#x20;
 {% embed url="https://github.com/timo1235/-ocs2.x-esp32-panel-software-" %}
 
 Die Einstellungsmöglichkeiten sind in der \`configuration.h\` Datei zu finden.
+
+### Beispiel Projekte
+
+| Bild                                       | Beschreibung          | Links                                                                                                                                                                                           |
+| ------------------------------------------ | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![](../.gitbook/assets/Handrad-1200px.jpg) | Handrad mit Powerbank | <ul><li><a href="https://blog.altholtmann.com/cnc-handrad-open-cnc-shield-2/">Blog Post mit Anleitung</a></li><li><a href="https://www.thingiverse.com/thing:5641305">Thingiverse</a></li></ul> |
