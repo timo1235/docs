@@ -40,6 +40,7 @@
   * [RJ45](open-cnc-shield-2/panelmodules/rj45.md)
   * [D-SUB25](open-cnc-shield-2/panelmodules/d-sub25.md)
   * [Breakout](open-cnc-shield-2/panelmodules/breakout.md)
+* [ESP32 Panel Platine](open-cnc-shield-2/esp32-panel-platine.md)
 * [Guides](open-cnc-shield-2/guides.md)
 
 ## CNC Software

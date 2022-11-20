@@ -2,11 +2,11 @@
 
 <div>
 
-<figure><img src="../../../../.gitbook/assets/controller beamicon-3-1200px.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/controller beamicon-3-1200px.jpg" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../../../.gitbook/assets/controller beamicon-10-1200px (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/controller beamicon-10-1200px (1).jpg" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -19,6 +19,7 @@ Dieser Controller ist für die Verwendung mit dem Beamicon Hardware gedacht. Dem
 * 3 Ausgänge
 * Zusätzliche Eingänge zum Starten des Programms etc.
 * **Verbindung mit dem PC über RJ45 - LAN**
+* **Beamicon unterstützt externe Handräder generell per USB-/RJ45-Verbindung an den Rechner und diese sind damit unabhängig vom OPEN-CNC-Shield 2**
 
 ### Unterstützung der OCS2 Funktionen <a href="#unterstuetzung-des-ocs2-funktionen" id="unterstuetzung-des-ocs2-funktionen"></a>
 
@@ -44,7 +45,7 @@ Dieser Controller ist für die Verwendung mit dem Beamicon Hardware gedacht. Dem
 
 Auszug aus dem Handbuch des CncPod2:
 
-<figure><img src="../../../../.gitbook/assets/cncpod2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cncpod2.png" alt=""><figcaption></figcaption></figure>
 
 | LPT Pins                              | OCS2 Anschluss                                                                                  |
 | ------------------------------------- | ----------------------------------------------------------------------------------------------- |

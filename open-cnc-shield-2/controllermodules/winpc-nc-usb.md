@@ -1,5 +1,5 @@
 ---
-cover: ../../../.gitbook/assets/controllermodule_banner.png
+cover: ../../.gitbook/assets/controllermodule_banner.png
 coverY: 0
 ---
 
@@ -7,11 +7,11 @@ coverY: 0
 
 <div>
 
-<figure><img src="../../../.gitbook/assets/controller winpc-2-1200px.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/controller winpc-2-1200px.jpg" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../../.gitbook/assets/controller winpc-4-1200px.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/controller winpc-4-1200px.jpg" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -24,6 +24,7 @@ Dieser Controller ist für die Verwendung mit einem WinPC NC USB Modul gedacht. 
 * 5 Ausgänge
 * Zusätzliche Eingänge zum Starten des Programms etc.
 * Verbindung mit dem PC über USB
+* **WinPC unterstützt externe Handräder generell per USB-Verbindung an den Rechner und diese sind damit unabhängig vom OPEN-CNC-Shield 2**
 
 ### Unterstützung der OCS2 Funktionen <a href="#unterstuetzung-des-ocs2-funktionen" id="unterstuetzung-des-ocs2-funktionen"></a>
 
