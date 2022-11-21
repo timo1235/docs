@@ -36,7 +36,7 @@ Die ESP32 Panel Platine ist für den Bau externer Bedienelemente gedacht. Der ES
   * Rotation Speed Poti (Spindelgeschwindigkeit)
   * Autosquare Taster
   * Auswahl X, Y und Z (zur Auswahl der Achse für den Encoder)
-  * 4 freie Buttons (kann zum Beispiel für die Stromlos-Funktion oder Speed1, Speed2 genutzt werden)
+  * 4 freie Buttons (kann zum Beispiel für die Stromlos-Funktion oder Speed1, Speed2 genutzt werden. Es können auch die Outputs 1-4 des OPEN-CNC-Shields 2 geschaltet werden)
   * Anschluss für I2C, typischerweise für ein Display
 
 ### Technische Details
