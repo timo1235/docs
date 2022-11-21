@@ -15,8 +15,8 @@ Dieser Controller ist für die Verwendung mit dem Beamicon Hardware gedacht. Dem
 ### Überblick
 
 * bis zu 6-Achsen
-* 5 Eingänge
-* 3 Ausgänge
+* 6 Eingänge
+* 2 Ausgänge
 * **Verbindung mit dem PC über RJ45 - LAN**
 * **Beamicon unterstützt externe Handräder generell per USB-/RJ45-Verbindung an den Rechner und diese sind damit unabhängig vom OPEN-CNC-Shield 2**
 
