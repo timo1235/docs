@@ -67,3 +67,25 @@ Für ungenutzte Pins und weitere Funktionen steht ein Pinout zur Verfügung:
 Die schematischen Zeichnungen und DXF files zu der Platine sind auf Github zu finden:
 
 {% embed url="https://github.com/timo1235/cnc-werkstatt/tree/master/OPEN-CNC-Shield%202.x/OCS2%20modules/ControllerModules/ControllerModule%20GRBL%20Uno" %}
+
+### Software
+
+Damit alle Funktionen vorhanden sind, muss die Konfiguration von GRBL ein wenig angepasst werden. Dort sind einige Funktionen standardmäßig deaktiviert, welche wir aber nutzen können.
+
+Dazu folgende Werte in der `config.h` im `grbl` Ordner folgendermaßen anpassen:
+
+```clike
+// Hiermit kann auch Mist geschaltet werden(Ausgang 1 am OPEN-CNC-Shield 2)
+// vorher
+// #define ENABLE_M7 // Disabled by default. Uncomment to enable.
+// nachher
+#define ENABLE_M7 // Disabled by default. Uncomment to enable.
+
+
+// Hiermit funktioniert da schalten des spindel an/aus Ausgangs am OPEN-CNC-Shield 2
+// vorher 
+// #define USE_SPINDLE_DIR_AS_ENABLE_PIN // Default disabled. Uncomment to enable.
+// nachher 
+#define USE_SPINDLE_DIR_AS_ENABLE_PIN // Default disabled. Uncomment to enable.
+```
+
