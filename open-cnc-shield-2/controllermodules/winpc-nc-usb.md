@@ -22,7 +22,6 @@ Dieser Controller ist für die Verwendung mit einem WinPC NC USB Modul gedacht. 
 * 4-Achsen
 * 10 Eingänge
 * 5 Ausgänge
-* Zusätzliche Eingänge zum Starten des Programms etc.
 * Verbindung mit dem PC über USB
 * **WinPC unterstützt externe Handräder generell per USB-Verbindung an den Rechner und diese sind damit unabhängig vom OPEN-CNC-Shield 2**
 
