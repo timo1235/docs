@@ -14,7 +14,7 @@ Dieser Controller ist für die Verwendung mit dem Beamicon Hardware gedacht. Dem
 
 ### Überblick
 
-* bis zu 6-Achsen
+* bis zu 4-Achsen
 * 6 Eingänge
 * 2 Ausgänge
 * **Verbindung mit dem PC über RJ45 - LAN**
