@@ -52,7 +52,7 @@ Auszug aus dem Handbuch des CncPod2:
 | Pin 1 - freier Ausgang                | Spindle on/off                                                                                  |
 | Pin 2-9 - Achsen X, Y, Z und 4. Achse | Achsen X,Y,Z und A                                                                              |
 | Pin 10 - freier Eingang               | Eingang 3                                                                                       |
-| Pin 11 - Nothalt                      | Eingang 5                                                                                       |
+| Pin 11 - Nothalt                      | Eingang 8                                                                                       |
 | Pin 12 - freier Eingang               | Eingang 2                                                                                       |
 | Pin 13 - freier Eingang               | Eingang 1                                                                                       |
 | Pin 14 - freier Ausgang               | Ausgang 1                                                                                       |
@@ -67,11 +67,11 @@ Auszug aus dem Handbuch des CncPod2:
 | Pin 8 - freier Ausgang                | ENA - Enable                                                                                    |
 | Pin 9 - freier Ausgang                | \*nicht verbunden                                                                               |
 | Pin 10 - freier Eingang               | Alarm all - wird ausgelöst wenn ein Treiber ein alarm signal ausgibt(Überlastung / Fehler etc.) |
-| Pin 11 - freier Eingang               | Eingang 8                                                                                       |
-| Pin 12 - freier Eingang               | Eingang 9                                                                                       |
-| Pin 13 - freier Eingang               | Eingang 6                                                                                       |
+| Pin 11 - freier Eingang               | Eingang 5                                                                                       |
+| Pin 12 - freier Eingang               | \*nicht verbunden                                                                               |
+| Pin 13 - freier Eingang               | Eingang 7                                                                                       |
 | Pin 14 - freier Ausgang               | Ausgang 4                                                                                       |
-| Pin 15 - freier Eingang               | Eingang 7                                                                                       |
+| Pin 15 - freier Eingang               | Eingang 6                                                                                       |
 | Pin 16 - freier Ausgang               | Ausgang 5                                                                                       |
 | Pin 17 - freier Ausgang               | Ausgang 6                                                                                       |
 
