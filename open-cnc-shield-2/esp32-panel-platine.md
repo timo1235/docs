@@ -76,6 +76,6 @@ Die Einstellungsmöglichkeiten sind in der \`configuration.h\` Datei zu finden.
 
 ### Beispiel Projekte
 
-| Bild                                       | Beschreibung          | Links                                                                                                                                                                                           |
-| ------------------------------------------ | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](../.gitbook/assets/Handrad-1200px.jpg) | Handrad mit Powerbank | <ul><li><a href="https://blog.altholtmann.com/cnc-handrad-open-cnc-shield-2/">Blog Post mit Anleitung</a></li><li><a href="https://www.thingiverse.com/thing:5641305">Thingiverse</a></li></ul> |
+| Bild                                                                          | Beschreibung          | Links                                                                                                                                                                                           |
+| ----------------------------------------------------------------------------- | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="../.gitbook/assets/Handrad-1200px.jpg" alt="" data-size="original"> | Handrad mit Powerbank | <ul><li><a href="https://blog.altholtmann.com/cnc-handrad-open-cnc-shield-2/">Blog Post mit Anleitung</a></li><li><a href="https://www.thingiverse.com/thing:5641305">Thingiverse</a></li></ul> |
