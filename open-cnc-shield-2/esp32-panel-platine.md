@@ -53,11 +53,11 @@ Schematische Darstellung und DXF Dateien zu der Platine sind auf Github zu finde
 
 #### Stromversorgung
 
-| Scenario                                                                                                                                | Beschreibung                                                                                                                                                                      |
+| Szenario                                                                                                                                | Beschreibung                                                                                                                                                                      |
 | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p>Senario 1:<br>Nur RJ45 Kabel zur Stromversorgung.<br>Keine Powerbank</p>                                                             | Jumper JP1 und JP2 setzen. Das Bedienteil ist dann immer an, wenn Strom da ist                                                                                                    |
-| <p>Scenario 2:<br>Powerbank für die Platine. Die Powerbank wird anderweitig geladen (z.B. Wireless Charger)</p>                         | Keine Jumper setzen. Powerbank mit dem USB-C IN Eingang verbinden. Ein An/Aus Schalter wird benötigt.                                                                             |
-| <p>Scenario 3:<br>Powerbank für die Platine. Die Powerbank wird auch über die Platine geladen, wenn ein RJ45 Kabel angesteckt wird.</p> | Keine Jumper setzen. Powerbank mit dem USB-C IN Eingang verbinden. Zweites USB Kabel vom USB-A Anschluss zum Ladeeingang der Powerbank ziehen. Ein An/Aus Schalter wird benötigt. |
+| <p>Szenario 1:<br>Nur RJ45 Kabel zur Stromversorgung.<br>Keine Powerbank</p>                                                            | Jumper JP1 und JP2 setzen. Das Bedienteil ist dann immer an, wenn Strom da ist                                                                                                    |
+| <p>Szenario 2:<br>Powerbank für die Platine. Die Powerbank wird anderweitig geladen (z.B. Wireless Charger)</p>                         | Keine Jumper setzen. Powerbank mit dem USB-C IN Eingang verbinden. Ein An/Aus Schalter wird benötigt.                                                                             |
+| <p>Szenario 3:<br>Powerbank für die Platine. Die Powerbank wird auch über die Platine geladen, wenn ein RJ45 Kabel angesteckt wird.</p> | Keine Jumper setzen. Powerbank mit dem USB-C IN Eingang verbinden. Zweites USB Kabel vom USB-A Anschluss zum Ladeeingang der Powerbank ziehen. Ein An/Aus Schalter wird benötigt. |
 
 ### Jumper
 
