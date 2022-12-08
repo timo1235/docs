@@ -6,6 +6,10 @@ Die Software für den ESP32 auf dem Mainboard kann bei Github heruntergeladen we
 
 {% embed url="https://github.com/timo1235/ocs2.x-esp32-software" %}
 
+Hier gibts eine Videoanleitung zum Einstellen und Aufspielen der Software
+
+{% embed url="https://youtu.be/cuQo0xxF-PA" %}
+
 ### Einstellungen
 
 Die Einstellungen können in der Datei \`configuration.h\` gemacht werden.
