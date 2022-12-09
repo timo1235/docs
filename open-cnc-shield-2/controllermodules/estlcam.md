@@ -19,7 +19,11 @@ coverY: 0
 
 </div>
 
-Dieser Controller ist für die Verwendung der Software [Estlcam ](https://www.estlcam.de/Fertigungsunterlagen\_Klemmen.php)gedacht. Die Software wird von Chrsitian Knüll entwickelt und deckt die Bedürfnisse im Hobby-Bereich sehr gut ab. Es wird außerdem ein Arduino Mega 2560 benötigt. Dieser wird auf das ControllerModule aufgesteckt.
+Dieser Controller ist für die Verwendung der Software [Estlcam ](https://www.estlcam.de/Fertigungsunterlagen\_Klemmen.php)gedacht. Die Software wird von Christian Knüll entwickelt und deckt die Bedürfnisse im Hobby-Bereich sehr gut ab. Es wird außerdem ein Arduino Mega 2560 benötigt. Dieser wird auf das ControllerModule aufgesteckt.
+
+Videoanleitung OPEN-CNC-Shield 2 - Estlcam:
+
+{% embed url="https://youtu.be/-IOIfOrjCxM" %}
 
 ### Überblick
 
