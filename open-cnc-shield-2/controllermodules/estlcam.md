@@ -23,8 +23,6 @@ Dieser Controller ist für die Verwendung der Software [Estlcam ](https://www.es
 
 Videoanleitung OPEN-CNC-Shield 2 - Estlcam:
 
-{% embed url="https://youtu.be/-IOIfOrjCxM" %}
-
 ### Überblick
 
 * 3-Achsen
