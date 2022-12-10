@@ -12,6 +12,10 @@
 
 Dieser Controller ist für die Verwendung mit dem Beamicon Hardware gedacht. Demnach wird das entsprechende Beamicon CncPod2 Modul zusätzlich benötigt.
 
+Videoanleitung OPEN-CNC-Shield 2 - Beamicon:
+
+{% embed url="https://youtu.be/ZSoPC3y04gI" %}
+
 ### Überblick
 
 * bis zu 6-Achsen
