@@ -41,7 +41,8 @@
   * [D-SUB25](open-cnc-shield-2/panelmodules/d-sub25.md)
   * [Breakout](open-cnc-shield-2/panelmodules/breakout.md)
 * [ESP32 Panel Platine](open-cnc-shield-2/esp32-panel-platine.md)
-* [Guides](open-cnc-shield-2/guides.md)
+* [Guides / Zubehör](open-cnc-shield-2/guides-zubehoer/README.md)
+  * [Gehäuse](open-cnc-shield-2/guides-zubehoer/gehaeuse.md)
 
 ## CNC Software
 
