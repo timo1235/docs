@@ -41,6 +41,32 @@ Diese Anschlüsse können für die Steuerung einer Spindel oder eines Lasers gen
 | J2           | Anschluss für einen oder mehrere DS18B20 Temperatursensoren. Dies können mit dem ESP32 ausgelesen werden.                                                                                                                                                                                                                                                                                                                   |
 | J3           | <p>Verbindet die Board Spannung mit der Motortreiber Spannung.<br>Achtung:<br>- nur nutzen, wenn die Aufstecktreiber weniger als 2A nutzen(zum Beispiel nur die z-Achse ist mit einem Aufstecktreiber versehen)<br>- nur nutzen, wenn Driver VCC und Driver GND nicht verbunden sind<br><strong>Eine Kabelbrücke oder ein extra Netzteil an den Anschlüssen Driver GND und Driver VCC ist immer zu bevorzugen</strong>.</p> |
 
+### General Pinout
+
+<figure><img src="../../.gitbook/assets/general pinout.png" alt=""><figcaption><p>Pin 1 ist an dem Punkt.  In dieser Ansicht ist darüber  Pin 2 usw.</p></figcaption></figure>
+
+| Pin | Funktion | Pin | Funktion  |
+| --- | -------- | --- | --------- |
+| 1   | 5V       | 2   | GND       |
+| 3   | 5V       | 4   | GND       |
+| 5   | 5V       | 6   | DAC\_A07  |
+| 7   | GND      | 8   | DAC\_A06  |
+| 9   | GND      | 10  | DAC\_A08  |
+| 11  | GND      | 12  | ESP32\_RX |
+
+### ESP32 Pinout
+
+<figure><img src="../../.gitbook/assets/esp32 pinout.png" alt=""><figcaption><p>Pin 1 ist an dem Punkt.  In dieser Ansicht ist darüber  Pin 2 usw.</p></figcaption></figure>
+
+| Pin | Funktion   | Pin | Funktion   |
+| --- | ---------- | --- | ---------- |
+| 1   | ESP32\_D32 | 2   | ESP32\_D27 |
+| 3   | ESP32\_D35 | 4   | ESP32\_D19 |
+| 5   | ESP32\_D34 | 6   | GND        |
+| 7   | Autosquare | 8   | ESP32\_D2  |
+| 9   | ESP32\_SCL | 10  | ESP32\_SDA |
+| 11  | ESP32\_TX  | 12  | ENA        |
+
 ### Achsenkonfiguration
 
 Diese Pin Leisten können mit Jumpern versehen werden, um Achsen **unabhängig vom verwendeten Controller** gleich laufen zu lassen. Ebenfalls hat die Konfiguration keinen Einfluss die Funktionalität des Autosquaring vom ESP32. Die Achsen-Einstellungen für das Autosquaring werden direkt in der Software des ESP32 getätigt.
