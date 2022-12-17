@@ -45,14 +45,14 @@ Diese Anschlüsse können für die Steuerung einer Spindel oder eines Lasers gen
 
 <figure><img src="../../.gitbook/assets/general pinout.png" alt=""><figcaption><p>Pin 1 ist an dem Punkt.  In dieser Ansicht ist darüber  Pin 2 usw.</p></figcaption></figure>
 
-| Pin | Funktion | Pin | Funktion  |
-| --- | -------- | --- | --------- |
-| 1   | 5V       | 2   | GND       |
-| 3   | 5V       | 4   | GND       |
-| 5   | 5V       | 6   | DAC\_A07  |
-| 7   | GND      | 8   | DAC\_A06  |
-| 9   | GND      | 10  | DAC\_A08  |
-| 11  | GND      | 12  | ESP32\_RX |
+| Pin | Funktion | Pin | Funktion     |
+| --- | -------- | --- | ------------ |
+| 1   | 5V       | 2   | GND          |
+| 3   | 5V       | 4   | GND          |
+| 5   | 5V       | 6   | DAC\_A07     |
+| 7   | GND      | 8   | DAC\_A06     |
+| 9   | GND      | 10  | DAC\_A08     |
+| 11  | GND      | 12  | ENA - Enable |
 
 ### ESP32 Pinout
 
@@ -65,7 +65,7 @@ Diese Anschlüsse können für die Steuerung einer Spindel oder eines Lasers gen
 | 5   | ESP32\_D34 | 6   | GND        |
 | 7   | Autosquare | 8   | ESP32\_D2  |
 | 9   | ESP32\_SCL | 10  | ESP32\_SDA |
-| 11  | ESP32\_TX  | 12  | ENA        |
+| 11  | ESP32\_TX  | 12  | ESP32\_RX  |
 
 ### Achsenkonfiguration
 
