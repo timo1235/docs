@@ -42,6 +42,7 @@
   * [Breakout](open-cnc-shield-2/panelmodules/breakout.md)
 * [ESP32 Panel Platine](open-cnc-shield-2/esp32-panel-platine.md)
 * [Guides / Zubehör](open-cnc-shield-2/guides-zubehoer/README.md)
+  * [Ein- und Ausgänge nutzen](open-cnc-shield-2/guides-zubehoer/ein-und-ausgaenge-nutzen.md)
   * [Fehlersammlung](open-cnc-shield-2/guides-zubehoer/fehlersammlung.md)
   * [Autosquaring](open-cnc-shield-2/guides-zubehoer/autosquaring.md)
   * [Gehäuse](open-cnc-shield-2/guides-zubehoer/gehaeuse.md)
