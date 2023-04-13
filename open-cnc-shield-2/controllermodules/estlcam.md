@@ -51,8 +51,8 @@ Videoanleitung OPEN-CNC-Shield 2 - Estlcam:
 | Feedrate (Vorschubgeschwindigkeit)                                      | :white\_check\_mark:                                                                                                                                                |
 | Rotation Speed (Spindelgeschwindigkeit)                                 | :white\_check\_mark:                                                                                                                                                |
 | 3-Achsen Joystick                                                       | :white\_check\_mark:                                                                                                                                                |
-| Auwahl X, Y, Z zur Wahl der Achsen für den Encoder                      | :white\_check\_mark:                                                                                                                                                |
-| Speed 1 und Speed 2 zur Einstellung der Encoder Geschwindigkeit         | :white\_check\_mark:                                                                                                                                                |
+| Auwahl X, Y, Z zur Wahl der Achsen für den Encoder                      | :white\_check\_mark: _<mark style="color:red;">Wird von Estlcam v12 nicht mehr unterstützt</mark>_                                                                  |
+| Speed 1 und Speed 2 zur Einstellung der Encoder Geschwindigkeit         | :white\_check\_mark: _<mark style="color:red;">Wird von Estlcam v12 nicht mehr unterstützt</mark>_                                                                  |
 
 ### Pin Mapping
 
@@ -62,10 +62,10 @@ Die Pins sind nach dem originalen Estlcam Schema angeschlossen und können auch 
 
 Pins, welche auf dem OCS2 nicht genutzt werden, stehen auf dem Adapter als Pinout zur Verfügung. Dazu gehören:
 
-* Speed 3-6
+* Speed 3-6 _<mark style="color:red;">Wird von Estlcam v12 nicht mehr unterstützt</mark>_
 * Motor Stop (Funktion ist auch durch zweimaliges Auslösen von Motor Start verfügbar)
 * Programm Stop (Funktion ist auch durch zweimaliges Auslösen von Programm Start verfügbar)
-* LED X, Y, Z
+* LED X, Y, Z _<mark style="color:red;">Wird von Estlcam v12 nicht mehr unterstützt</mark>_
 
 ### Technische Details
 
