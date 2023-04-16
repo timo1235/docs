@@ -36,7 +36,7 @@ Falls z.B. eine China Spindle eingesetzt wird, kann man das Gehäuse der Spindel
 
 <figure><img src="../../.gitbook/assets/in_nc_example.png" alt=""><figcaption><p>Endstop als NC(normally closed) - geschaltet mit GND</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/in_npn_example.png" alt=""><figcaption><p>NPN/PNP Sensor </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/in_npn_example.png" alt=""><figcaption><p>NPN Sensor - für PNP den Jumper in (+) Stellung bringen.</p></figcaption></figure>
 
 ## Ausgänge
 
