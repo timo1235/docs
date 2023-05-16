@@ -47,6 +47,10 @@ Bei diesem Fehlerbild gehe ich immer folgendermaßen vor:
 
 Das Haltemoment ist eine entscheidende Voraussetzung, damit Motoren in Bewegung treten können. Um dies zu überprüfen, ziehe ich zunächst das Controller-Modul und den ESP32 vom Mainboard ab, natürlich im stromlosen Zustand. Anschließend lege ich Strom auf das Mainboard und überprüfe das Haltemoment der Motoren. Falls kein Haltemoment vorhanden ist, teste ich den Jumper JP1 (ENA) in beiden Positionen, um herauszufinden, ob sich das Haltemoment einstellt.
 
+Hier ein Bild zur Veranschaulichung des Testaufbaus:
+
+<figure><img src="../../.gitbook/assets/IMG_20230516_172614.jpg" alt=""><figcaption></figcaption></figure>
+
 Sollten die Motoren immer noch kein Haltemoment aufweisen, bleiben lediglich die Stromzufuhr und die Verkabelung der Motoren als mögliche Fehlerquellen übrig. Ist das Haltemoment jedoch gegeben, können das Controller-Modul und der ESP32 nacheinander wieder angeschlossen werden. Nach jedem Anschluss sollte erneut geprüft werden, ob das Haltemoment weiterhin vorhanden ist. Auf diese Weise kann der Fehler entweder auf den ESP32 oder den Controller eingegrenzt werden.
 
 Falls der Fehler im Controller liegt, sollte die Dokumentation des Controllers sowie die zugehörige Software überprüft werden. Beispielsweise setzt GRBL die Motoren immer stromlos, wenn sie nicht verfahren. Liegt der Fehler hingegen im ESP32, sollten folgende Fragen geklärt werden: Ist die Software des ESP32 korrekt aufgespielt? In der Konfiguration der Software befindet sich ein Wert für den ENA-Status, welcher zur Überprüfung geändert werden könnte. Ist ein Funk-Handrad verbunden? Falls ja, könnte dort eventuell "ENA" ausgelöst sein.

@@ -5,7 +5,7 @@ coverY: 0
 
 # PanelModules
 
-<div>
+<div align="center">
 
 <figure><img src="../../.gitbook/assets/panel breakout-3-1200px.jpg" alt=""><figcaption><p>Breakout</p></figcaption></figure>
 
