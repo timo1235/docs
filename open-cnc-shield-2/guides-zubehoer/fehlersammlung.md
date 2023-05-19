@@ -18,6 +18,8 @@ description: >-
 
 [#cnc-bewegt-sich-nicht-fraese-verfaehrt-nicht-motoren-stehen-still](fehlersammlung.md#cnc-bewegt-sich-nicht-fraese-verfaehrt-nicht-motoren-stehen-still "mention")
 
+[#analoge-inputs-funktionieren-in-estlcam-mit-dem-esp32-panel-wifi-nicht-digitale-inputs-buttons-aber](fehlersammlung.md#analoge-inputs-funktionieren-in-estlcam-mit-dem-esp32-panel-wifi-nicht-digitale-inputs-buttons-aber "mention")
+
 ## Lösungen
 
 ### Motoren drehen manchmal in die falsche Richtung beim Autosquaring. Motoren fahren gegen ihre Endstops nach dem Autosquaring
@@ -58,3 +60,12 @@ Falls der Fehler im Controller liegt, sollte die Dokumentation des Controllers s
 #### Motoren haben Haltemoment
 
 Wenn die Motoren Haltemoment haben, bleibt eigentlich nur die Verkabelung zu prüfen. Man könnte zum testen nur STEP und GND anschließen und schauen ob sich dann etwas bewegt, wenn in der Software verfahren wird.
+
+### Analoge Inputs funktionieren in Estlcam mit dem ESP32 Panel(WiFi) nicht - digitale Inputs(Buttons) aber wohl
+
+Bei ordnungsgemäßer Übertragung der digitalen Funktionen über Funk und korrekter Anzeige in Estlcam gibt es nur zwei potenzielle Fehlerquellen, wenn die analogen Signale versagen. Mit "nicht funktionieren" beziehe ich mich auf das Phänomen, dass sich die Balken in Estlcam auf der Bedienelement-Seite in den Einstellungen nicht bewegen, obwohl der Joystick oder die Potentiometer am Bedienpanel bedient werden.
+
+1. Am Bedienpanel sind weder der Joystick noch Feedrate noch Rotation Speed eingerichtet. Die Konfiguration des Bedienpanels erneut überprüfen. Zudem sollte sichergestellt werden, ob die Bewegungen des Joysticks bzw. der Potentiometer im Webinterface des Bedienpanels korrekt erkannt werden.
+2. Sollte das Problem nicht am Bedienpanel liegen und digitale Signale werden problemlos übertragen und in Estlcam angezeigt, könnte der Chip für die analogen Signale auf dem Hauptplatinen defekt sein. In diesem Fall bleibt nur die Option, diesen auszutauschen.
+
+### &#x20;
