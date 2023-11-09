@@ -61,7 +61,7 @@ Beide ControllerModules sind dauerhaft mit Strom und den oben beschriebenen Sign
 
 ### ENA/Enable der Treiber
 
-In der derzeitigen Ausführung des Dual-Adapters sind die ENA-Anschlüsse beider Controllermodule dauerhaft miteinander verbunden. Es ist daher unerlässlich, darauf zu achten, dass die Controllermodule die ENA-Funktion nicht aktivieren oder schalten. Keinesfalls dürfen beide Controllermodule gleichzeitig den ENA-Anschluss verwenden - während der Betrieb mit einem aktiven Modul funktioniert, würde das Schalten beider Module - eines auf GND und das andere auf 5V - zu einem Kurzschluss führen, der potenziell die Steuerung beschädigen kann.
+In der derzeitigen Ausführung des Dual-Adapters sind die ENA-Anschlüsse beider ControllerModule dauerhaft miteinander verbunden. Es ist daher unerlässlich, darauf zu achten, dass die ControllerModule die ENA-Funktion nicht aktivieren oder schalten. Keinesfalls dürfen beide ControllerModule gleichzeitig den ENA-Anschluss verwenden - während der Betrieb mit einem aktiven Modul funktioniert, würde das Schalten beider Module - eines auf GND und das andere auf 5V - zu einem Kurzschluss führen, der potenziell die Steuerung beschädigen kann.
 
 Die sicherste Maßnahme ist es, die ENA-Funktion an beiden Controllern nicht zu verwenden. Stattdessen sollten die Motoren mit dem ENA-Jumper direkt auf dem OCS2 Shield in den korrekten Zustand versetzt werden.
 
@@ -165,4 +165,6 @@ Es liegt in der eigenen Verantwortung dafür zu Sorgen, dass keine Abhängigkeit
 
 #### Estlcam und FluidNC
 
-Diese Controller-Kombination funktioniert einwandfrei. Der ENA hinweis oben sollte beachten werden. Dazu in der FluidNC Konfiguration `shared_stepper_disable_pin: i2so.12` auskommentieren oder löschen.
+Diese Controller-Kombination funktioniert einwandfrei. Der ENA Hinweis oben sollte beachten werden. Dazu in der FluidNC Konfiguration `shared_stepper_disable_pin: i2so.12` auskommentieren oder löschen.
+
+Außerdem muss die Achsenkonfiguration beachtet werden. Dazu gibt es einen Abschnitt auf dieser Seite.
