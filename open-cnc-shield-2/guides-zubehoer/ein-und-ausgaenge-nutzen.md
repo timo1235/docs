@@ -26,7 +26,9 @@ Ich würde eine normally closed Verkabelung bevorzugen, da hierbei auch Kabelbr�
 
 <figure><img src="../../.gitbook/assets/transistor-sensor-1.jpg" alt=""><figcaption></figcaption></figure>
 
-Es können sowohl PNP Sensoren als auch NPN Sensoren angeschlossen werden. Hierzu muss lediglich die passende Switch-/Jumpereinstellung an dem Eingang vorgenommen werden. Diese gibt es ebenfalls als NC(normally closed) oder NO(normally open) Variante.#
+Es können sowohl PNP Sensoren als auch NPN Sensoren angeschlossen werden. Hierzu muss lediglich die passende Switch-/Jumpereinstellung an dem Eingang vorgenommen werden. Diese gibt es ebenfalls als NC(normally closed) oder NO(normally open) Variante.
+
+_NPN Sensoren verhalten sich "merkwürdig" und schalten nicht, wie sie sollten? Siehe dazu die Informationen in diesem Github Issue:_ [_https://github.com/timo1235/cnc-werkstatt/issues/5_](https://github.com/timo1235/cnc-werkstatt/issues/5)
 
 ### Tastplatte
 

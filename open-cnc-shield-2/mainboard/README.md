@@ -1,5 +1,4 @@
 ---
-description: This is the page description
 cover: ../../.gitbook/assets/mainboard_banner.png
 coverY: 0
 ---

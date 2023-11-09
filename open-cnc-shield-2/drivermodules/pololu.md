@@ -74,6 +74,14 @@ Mit Microstepping kann man die Schritte des Motors weiter verkleinern. Ein typis
 
 Hier ist ein Beispiel für Estlcam. Die Mikroschritte sollten so für eine MPCNC-Fräse funktionieren. Die Jumper sind in diesem Beispiel für die x- und y-Achse auf 1/8 Schritt und für die z-Achse auf 1/4 Schritt eingestellt.
 
+### Treiberstrom einstellen
+
+Die Treiber verfügen über ein Potentiometer, mit dem der Strom oder die Spannung eingestellt werden kann. Die richtige Spannungseinstellung für den Treiber hängt von verschiedenen Faktoren ab, einschließlich des verwendeten Treibers (DRV8825/A4988/TMC2209 usw.) und des auf dem Treiber installierten Widerstands. Das Datenblatt des Treibers ist eine nützliche Ressource für diese Einstellung.
+
+Die Spannungseinstellung sollte im eingeschalteten Zustand vorgenommen werden, daher ist äußerste Vorsicht geboten, um ein Abrutschen und möglichen Kurzschluss zu vermeiden. In dem folgenden Video zeige ich kurz, wie die Motoren eingestellt werden können. In dem Video wird zwar das OPEN-CNC-Shield 1 verwendet, das Vorgehen bleibt aber gleich.
+
+{% embed url="https://youtu.be/JiJGp7ukrp0?si=d3p4DV8l7nFXp1_t" %}
+
 ### Technische Details
 
 Die schematischen Zeichnungen und DXF files zu der Platine sind auf Github zu finden:

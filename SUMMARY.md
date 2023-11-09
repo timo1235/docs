@@ -28,6 +28,8 @@
   * [Beamicon](open-cnc-shield-2/controllermodules/beamicon/README.md)
     * [CncPod2](open-cnc-shield-2/controllermodules/beamicon/cncpod2.md)
     * [Micropod](open-cnc-shield-2/controllermodules/beamicon/micropod.md)
+  * [FluidNC](open-cnc-shield-2/controllermodules/fluidnc.md)
+  * [Dual Adapter](open-cnc-shield-2/controllermodules/dual-adapter.md)
 * [InOutModules](open-cnc-shield-2/inoutmodules/README.md)
   * [Relais und Federklemmen](open-cnc-shield-2/inoutmodules/relais-und-federklemmen.md)
   * [Federklemmen](open-cnc-shield-2/inoutmodules/federklemmen.md)
@@ -40,12 +42,15 @@
   * [RJ45](open-cnc-shield-2/panelmodules/rj45.md)
   * [D-SUB25](open-cnc-shield-2/panelmodules/d-sub25.md)
   * [Breakout](open-cnc-shield-2/panelmodules/breakout.md)
-* [ESP32 Panel Platine](open-cnc-shield-2/esp32-panel-platine.md)
+* [ESP32 Panel](open-cnc-shield-2/esp32-panel/README.md)
+  * [ESP32 Panel Platine](open-cnc-shield-2/esp32-panel/esp32-panel-platine.md)
+  * [ESP32 Panel Integrated Battery Platine](open-cnc-shield-2/esp32-panel/esp32-panel-integrated-battery-platine.md)
 * [Guides / Zubehör](open-cnc-shield-2/guides-zubehoer/README.md)
-  * [Ein- und Ausgänge nutzen](open-cnc-shield-2/guides-zubehoer/ein-und-ausgaenge-nutzen.md)
   * [Fehlersammlung](open-cnc-shield-2/guides-zubehoer/fehlersammlung.md)
+  * [Ein- und Ausgänge nutzen](open-cnc-shield-2/guides-zubehoer/ein-und-ausgaenge-nutzen.md)
   * [Autosquaring](open-cnc-shield-2/guides-zubehoer/autosquaring.md)
   * [Gehäuse](open-cnc-shield-2/guides-zubehoer/gehaeuse.md)
+  * [Spindel / Laser / FU / Motor Anschluss](open-cnc-shield-2/guides-zubehoer/spindel-laser-fu-motor-anschluss.md)
 
 ## CNC Software
 

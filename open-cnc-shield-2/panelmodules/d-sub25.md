@@ -32,21 +32,7 @@ Es gibt eine LED auf dem Board, welche durch den ESP32 auf dem OPEN-CNC-Shield 2
 
 ### Pinout
 
-| D-SUB25 Pin | Funktion                                       | D-SUB25 Pin | Funktion                                       |
-| ----------- | ---------------------------------------------- | ----------- | ---------------------------------------------- |
-| 1           | 5V                                             | 14          | GND                                            |
-| 2           | 5V                                             | 15          | GND                                            |
-| 3           | Encoder A                                      | 16          | Encoder B                                      |
-| 4           | Joystick X                                     | 17          | Joystick Y                                     |
-| 5           | Joystick Z                                     | 18          | Feedrate - Vorschubgeschwindigkeit             |
-| 6           | Rotation Speed - Spindelgeschwindigkeit        | 19          | Programm Start                                 |
-| 7           | Motor Start                                    | 20          | OK                                             |
-| 8           | Auswahl X                                      | 21          | Auswahl Y                                      |
-| 9           | Auswahl Z                                      | 22          | Speed 1                                        |
-| 10          | Speed 2                                        | 23          | ENA - Enable der Treiber                       |
-| 11          | Autosquare                                     | 24          | ESP TX - Serielle Verbindung                   |
-| 12          | ESP RX - Serielle Verbindung                   | 25          | Frei - Kann am Pin Header selbst belegt werden |
-| 13          | Frei - Kann am Pin Header selbst belegt werden |             |                                                |
+<table><thead><tr><th width="104">D-SUB25 Pin</th><th>Funktion</th><th width="86">D-SUB25 Pin</th><th>Funktion</th></tr></thead><tbody><tr><td>1</td><td>5V</td><td>14</td><td>GND</td></tr><tr><td>2</td><td>5V</td><td>15</td><td>GND</td></tr><tr><td>3</td><td>Encoder A</td><td>16</td><td>Encoder B</td></tr><tr><td>4</td><td>Joystick X</td><td>17</td><td>Joystick Y</td></tr><tr><td>5</td><td>Joystick Z</td><td>18</td><td>Feedrate - Vorschubgeschwindigkeit</td></tr><tr><td>6</td><td>Rotation Speed - Spindelgeschwindigkeit</td><td>19</td><td>Programm Start</td></tr><tr><td>7</td><td>Motor Start</td><td>20</td><td>OK </td></tr><tr><td>8</td><td>Auswahl X</td><td>21</td><td>Auswahl Y</td></tr><tr><td>9</td><td>Auswahl Z</td><td>22</td><td>Speed 1</td></tr><tr><td>10</td><td>Speed 2</td><td>23</td><td>ENA - Enable der Treiber</td></tr><tr><td>11</td><td>Autosquare</td><td>24</td><td>ESP TX - Serielle Verbindung</td></tr><tr><td>12</td><td>ESP RX - Serielle Verbindung</td><td>25</td><td>Frei - Kann am Pin Header selbst belegt werden</td></tr><tr><td>13</td><td>Frei - Kann am Pin Header selbst belegt werden</td><td></td><td></td></tr></tbody></table>
 
 Die Pins D13 und D25 stehen zusätzlich auf der Platine als Pin Header zur Verfügung und können selbst belegt werden.
 

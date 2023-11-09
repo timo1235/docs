@@ -8,7 +8,7 @@ Das InOutModule ist für die Ein- und Ausgänge der Platine zuständig. Die vers
 
 ## Pin Belegung
 
-<figure><img src="../../../../.gitbook/assets/inout pin ma.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/inout pin ma.jpg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Typ OUT: Das Signal geht vom Controller / Steuerungssoftware in Richtung InOutModule
@@ -18,35 +18,13 @@ Typ IN: Das Signal kommt vom InOutModule und geht zum Controller / der Steuerung
 
 ### **InOut  1:**
 
-| Pin | Beschreibung                                                                                                  | Typ | Pin | Beschreibung  | Typ |
-| --- | ------------------------------------------------------------------------------------------------------------- | --- | --- | ------------- | --- |
-| 1   | **Ausgang 1**                                                                                                 | OUT | 2   | **Eingang 8** | IN  |
-| 3   | **Ausgang 2**                                                                                                 | OUT | 4   | **Eingang 7** | IN  |
-| 5   | **Ausgang 3**                                                                                                 | OUT | 6   | **Eingang 6** | IN  |
-| 7   | **Ausgang 4**                                                                                                 | OUT | 8   | **Eingang 5** | IN  |
-| 9   | **5V**                                                                                                        | OUT | 10  | **Eingang 4** | IN  |
-| 11  | <p><strong>V-Board</strong><br><strong></strong>Gleiche Spannung wie die Stromversorgung der Hauptplatine</p> | OUT | 12  | **Eingang 3** | IN  |
-| 13  | **GND**                                                                                                       | OUT | 14  | **Eingang 2** | IN  |
-| 15  | **GND**                                                                                                       | OUT | 16  | **Eingang 1** | IN  |
+<table><thead><tr><th width="81">Pin</th><th width="219">Beschreibung</th><th width="111">Typ</th><th width="67">Pin</th><th width="198">Beschreibung</th><th width="69">Typ</th></tr></thead><tbody><tr><td>1</td><td><strong>Ausgang 1</strong> </td><td>OUT</td><td>2</td><td><strong>Eingang 8</strong></td><td>IN</td></tr><tr><td>3</td><td><strong>Ausgang 2</strong></td><td>OUT</td><td>4</td><td><strong>Eingang 7</strong></td><td>IN</td></tr><tr><td>5</td><td><strong>Ausgang 3</strong></td><td>OUT</td><td>6</td><td><strong>Eingang 6</strong></td><td>IN</td></tr><tr><td>7</td><td><strong>Ausgang 4</strong></td><td>OUT</td><td>8</td><td><strong>Eingang 5</strong></td><td>IN</td></tr><tr><td>9</td><td><strong>5V</strong></td><td>OUT</td><td>10</td><td><strong>Eingang 4</strong></td><td>IN</td></tr><tr><td>11</td><td><strong>V-Board</strong><br>Gleiche Spannung wie die Stromversorgung der Hauptplatine</td><td>OUT</td><td>12</td><td><strong>Eingang 3</strong></td><td>IN</td></tr><tr><td>13</td><td><strong>GND</strong></td><td>OUT</td><td>14</td><td><strong>Eingang 2</strong></td><td>IN</td></tr><tr><td>15</td><td><strong>GND</strong></td><td>OUT</td><td>16</td><td><strong>Eingang 1</strong></td><td>IN</td></tr></tbody></table>
 
 ### **InOut 2:**
 
-| Pin | Beschreibung                                                                                                  | Typ | Pin | Beschreibung   | Typ |
-| --- | ------------------------------------------------------------------------------------------------------------- | --- | --- | -------------- | --- |
-| 1   | **Ausgang 5**                                                                                                 | OUT | 2   | **Eingang 16** | IN  |
-| 3   | **Ausgang 6**                                                                                                 | OUT | 4   | **Eingang 15** | IN  |
-| 5   | **Ausgang 7**                                                                                                 | OUT | 6   | **Eingang 14** | IN  |
-| 7   | **Ausgang 8**                                                                                                 | OUT | 8   | **Eingang 13** | IN  |
-| 9   | **5V**                                                                                                        | OUT | 10  | **Eingang 12** | IN  |
-| 11  | <p><strong>V-Board</strong><br><strong></strong>Gleiche Spannung wie die Stromversorgung der Hauptplatine</p> | OUT | 12  | **Eingang 11** | IN  |
-| 13  | **GND**                                                                                                       | OUT | 14  | **Eingang 10** | IN  |
-| 15  | **GND**                                                                                                       | OUT | 16  | **Eingang 9**  | IN  |
+<table><thead><tr><th width="81">Pin</th><th width="219">Beschreibung</th><th width="111">Typ</th><th width="67">Pin</th><th width="198">Beschreibung</th><th width="69">Typ</th></tr></thead><tbody><tr><td>1</td><td><strong>Ausgang 5</strong></td><td>OUT</td><td>2</td><td><strong>Eingang 16</strong></td><td>IN</td></tr><tr><td>3</td><td><strong>Ausgang 6</strong></td><td>OUT</td><td>4</td><td><strong>Eingang 15</strong></td><td>IN</td></tr><tr><td>5</td><td><strong>Ausgang 7</strong></td><td>OUT</td><td>6</td><td><strong>Eingang 14</strong></td><td>IN</td></tr><tr><td>7</td><td><strong>Ausgang 8</strong></td><td>OUT</td><td>8</td><td><strong>Eingang 13</strong></td><td>IN</td></tr><tr><td>9</td><td><strong>5V</strong></td><td>OUT</td><td>10</td><td><strong>Eingang 12</strong></td><td>IN</td></tr><tr><td>11</td><td><strong>V-Board</strong><br>Gleiche Spannung wie die Stromversorgung der Hauptplatine</td><td>OUT</td><td>12</td><td><strong>Eingang 11</strong></td><td>IN</td></tr><tr><td>13</td><td><strong>GND</strong></td><td>OUT</td><td>14</td><td><strong>Eingang 10</strong></td><td>IN</td></tr><tr><td>15</td><td><strong>GND</strong></td><td>OUT</td><td>16</td><td><strong>Eingang 9</strong></td><td>IN</td></tr></tbody></table>
 
 ## Technische Daten
 
-| Beschreibung    | Details                                                                                                                    |
-| --------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Eingänge 1-16   | Die Eingänge sind typischerweise mit Pullup Widerständen versehen. Dies ist allerdings auch vom ControllerModule abhängig. |
-| Ausgänge 1-8    | Die Ausgänge sind auf dem Mainboard mit 4,7K Ohm Pulldown Widerständen versehen.                                           |
-| Maße der Module | 75 mm x 67,5 mm                                                                                                            |
+<table><thead><tr><th width="218">Beschreibung</th><th>Details</th></tr></thead><tbody><tr><td>Eingänge 1-16</td><td>Die Eingänge sind typischerweise mit Pullup Widerständen versehen. Dies ist allerdings auch vom ControllerModule abhängig.</td></tr><tr><td>Ausgänge 1-8</td><td>Die Ausgänge sind auf dem Mainboard mit 4,7K Ohm Pulldown Widerständen versehen.</td></tr><tr><td>Maße der Module</td><td>75 mm x 67,5 mm</td></tr></tbody></table>
 
