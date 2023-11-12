@@ -67,6 +67,10 @@ Die sicherste Maßnahme ist es, die ENA-Funktion an beiden Controllern nicht zu 
 
 In zukünftigen Versionen des Dual-Adapters könnte das Verhalten der ENA-Anschlüsse einer Überarbeitung unterzogen werden, um eine verbesserte Funktionalität zu gewährleisten.
 
+{% hint style="warning" %}
+Falls der ESP32 auf dem OPEN-CNC-Shield 2 in verbindugn mit einem Bedienpanel verwendet wird, auch hier darauf achten ggf. `#define ESP_SET_ENA false` zu setzen.  Es sollte immer nur maximal ein Gerät den ENA Status am OCS2 beeinflussen.
+{% endhint %}
+
 ### Achsenkonfiguration
 
 Die Achsenkonfiguration wird auf dem [OCS2 selbst vorgenommen](../mainboard/anschluesse-jumper.md#achsenkonfiguration). Daher teilen sich die beiden ControllerModule die Konfiguration. Die Konfiguration darf daher nicht im Konflikt zueinander stehen.&#x20;
