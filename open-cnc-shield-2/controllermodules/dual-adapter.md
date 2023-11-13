@@ -73,7 +73,7 @@ Falls der ESP32 auf dem OPEN-CNC-Shield 2 in verbindugn mit einem Bedienpanel ve
 
 ### Achsenkonfiguration
 
-Die Achsenkonfiguration wird auf dem [OCS2 selbst vorgenommen](../mainboard/anschluesse-jumper.md#achsenkonfiguration). Daher teilen sich die beiden ControllerModule die Konfiguration. Die Konfiguration darf daher nicht im Konflikt zueinander stehen.&#x20;
+Die Achsenkonfiguration erfolgt direkt auf dem [OCS2](../mainboard/anschluesse-jumper.md#achsenkonfiguration). Deshalb ist es wichtig, dass die Konfigurationen der beiden ControllerModule miteinander kompatibel sind und keine Konflikte aufweisen.
 
 <details>
 
@@ -172,3 +172,5 @@ Es liegt in der eigenen Verantwortung dafür zu Sorgen, dass keine Abhängigkeit
 Diese Controller-Kombination funktioniert einwandfrei. Der ENA Hinweis oben sollte beachten werden. Dazu in der FluidNC Konfiguration `shared_stepper_disable_pin: i2so.12` auskommentieren oder löschen.
 
 Außerdem muss die Achsenkonfiguration beachtet werden. Dazu gibt es einen Abschnitt auf dieser Seite.
+
+Hier ist ein Beitrag zu einem Beispielprojekt an einer MPCNC: [FluidNC und Estlcam im Parallelbetrieb am OCS2](https://blog.altholtmann.com/fluidnc-und-estlcam-im-parallelbetrieb-am-ocs2/)
