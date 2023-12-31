@@ -22,6 +22,8 @@ description: >-
 
 [#esp32-panel-software-erstellt-keinen-wlan-hotspot](fehlersammlung.md#esp32-panel-software-erstellt-keinen-wlan-hotspot "mention")
 
+[#analoges-spindel-signal-laesst-nicht-auf-10v-einstellen](fehlersammlung.md#analoges-spindel-signal-laesst-nicht-auf-10v-einstellen "mention")
+
 ## Lösungen
 
 ### Motoren drehen manchmal in die falsche Richtung beim Autosquaring. Motoren fahren gegen ihre Endstops nach dem Autosquaring
