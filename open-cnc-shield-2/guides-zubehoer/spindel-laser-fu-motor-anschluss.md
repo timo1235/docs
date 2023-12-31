@@ -24,7 +24,12 @@ Versuche nicht die 10V genau zu treffen. Es gibt immer Toleranzen / Abweichungen
 6. Die Steuerung programmieren.
 7. Den Spindelmotor über die Estlcam Oberfläche starten und den Befehl „pwm100“ in der Kommandozeile eintippen.
 8. Sicherstellen, dass der Schieberegler für die Spindel Geschwindigkeit über 100 % steht und dann so lange an der Stellschraube auf dem Potentiometer(kleines blaues Bauteil mit Schlitz-Schraube) drehen, bis das Multimeter etwa 10V anzeigt.
-9. Fertig.
+
+{% hint style="warning" %}
+Achtung, die Schraube des Potentiometers kann auch überdreht werden, dann hilft nur noch ein Austausch des Potentiometers.
+{% endhint %}
+
+1. Fertig.
 
 ### Laser
 

@@ -105,12 +105,30 @@ Sollte der Hotspot nicht starten, obwohl alle Einstellungen korrekt sind und die
 
 </div>
 
-Danach die Software neu flashen und Daumen drücken 👍\
+Danach die Software neu flashen und Daumen drücken 👍
 
+### Analoges Spindel-Signal lässt nicht auf 10V einstellen
 
+Schaue dir zuerst folgenden Guide an und folge den beschriebenen Schritten: [#analoges-signal-kalibrieren](spindel-laser-fu-motor-anschluss.md#analoges-signal-kalibrieren "mention")
 
+beachte dabei folgendes:
 
+* Das OPEN-CNC-Shield 2 muss mit Spannung versorgt werden (mehr als 12V)
+* Führe die Kalibrierung ohne Spindel / FU durch. Also, ohne dass etwas an VCC bzw. PWM angeschlossen ist
+* Wenn die Kalibrierung mit Estlcam durchgeführt wird, muss die LED bei "Spindel/FU connections" auf dem OCS2 leuchten. Die LED zeigt an, dass ein Spindel-Signal ausgegeben wird
+* Der Jumper JP2 muss auf 10V stehen
 
+#### Falls dennoch keine Spannung zwischen GND und VCC angezeigt wird
+
+* das Board keinen Strom
+* der Operationsverstärker LM358 auf dem Board ist defekt
+* falls der Ausgang noch nie funktioniert hat, könnte auch ein Problem mit den Leitungen auf der Platine vorliegen
+
+#### Falls die Spannung unter 10V bleibt, aber größer als 5V ist
+
+* Das OCS2 wird mit weniger als 12V versorgt
+
+####
 
 
 
