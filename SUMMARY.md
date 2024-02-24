@@ -57,3 +57,9 @@
 * [Estlcam](cnc-software/estlcam/README.md)
   * [Tutorials](cnc-software/estlcam/tutorials/README.md)
     * [Werkzeugwechsel an fester Position](cnc-software/estlcam/tutorials/werkzeugwechsel-an-fester-position.md)
+
+## Table Router Shield
+
+* [Allgemein](table-router-shield/allgemein.md)
+* [Technische Daten](table-router-shield/technische-daten.md)
+* [Dokumentation](table-router-shield/dokumentation.md)
