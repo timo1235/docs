@@ -96,6 +96,12 @@ Dieser Controller ist für den Einsatz von [FluidNC ](http://wiki.fluidnc.com/)g
 | i2so.23                                    | OCS2 Ausgang 8             |
 | i2so.24 - i2so.31                          | Frei - Nur am Pinout       |
 
+### Pinout&#x20;
+
+Folgendes Pinout steht auf dem ControllerModule zur Verfügung und kann zusätzlich bei Bedarf genutzt werden:
+
+![](../../.gitbook/assets/FluidNC\_Pinout.png)
+
 ### Beispielkonfiguration für meine MPCNC
 
 ```yaml
