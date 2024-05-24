@@ -73,7 +73,7 @@ Falls der ESP32 auf dem OPEN-CNC-Shield 2 in verbindugn mit einem Bedienpanel ve
 
 ### Achsenkonfiguration
 
-Die Achsenkonfiguration erfolgt direkt auf dem [OCS2](../mainboard/anschluesse-jumper.md#achsenkonfiguration). Deshalb ist es wichtig, dass die Konfigurationen der beiden ControllerModule miteinander kompatibel sind und keine Konflikte aufweisen.
+Die Achsenkonfiguration erfolgt direkt auf dem [OCS2](../mainboard-mini/anschluesse-jumper.md#achsenkonfiguration). Deshalb ist es wichtig, dass die Konfigurationen der beiden ControllerModule miteinander kompatibel sind und keine Konflikte aufweisen.
 
 <details>
 

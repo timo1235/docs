@@ -2,7 +2,7 @@
 
 Auf dieser Seite zeige ich einige Beispiele für den Anschluss verschiedener Geräte an das OPEN-CNC-Shield 2. Das OPEN-CNC-Shield 2 bietet vielfältige Möglichkeiten der Spindel Steuerung. Unter anderem ist es möglich diese ein- und auszuschalten oder die Drehzahl zu regulieren.
 
-Die Dokumentation der einzelnen Anschlüsse ist hier zu finden: [#spindel-motor-laser-steuerung](../mainboard/anschluesse-jumper.md#spindel-motor-laser-steuerung "mention")
+Die Dokumentation der einzelnen Anschlüsse ist hier zu finden: [#spindel-motor-laser-steuerung](../mainboard-mini/anschluesse-jumper.md#spindel-motor-laser-steuerung "mention")
 
 ### Analoges Signal kalibrieren
 
