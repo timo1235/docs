@@ -18,7 +18,7 @@ coverY: 0
 ### Überblick
 
 * 8 Eingänge
-* Eingänge schalten entweder mit GND/Masse oder mit 5-24V (über einen Jumper umschaltbar)
+* Eingänge schalten entweder mit GND/Masse oder mit 5-24V (über einen Switch direkt auf der Platine umschaltbar)
 * 4 Ausgänge
 * Ausgänge sind mit Darlington Relays versehen - schalten also GND/Masse an den OUTs
 * 500mA pro Ausgang

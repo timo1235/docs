@@ -20,6 +20,48 @@ Diese Anschlüsse können für die Steuerung einer Spindel oder eines Lasers gen
 Für den Anschluss diverser Spindeln gibt es hier Bespiele: [spindel-laser-fu-motor-anschluss.md](../guides-zubehoer/spindel-laser-fu-motor-anschluss.md "mention")
 {% endhint %}
 
+### Motortreiber
+
+Für die Steuerung von Motoren werden externe Treiber benötigt. Die Platine arbeitet mit 5V Steuersignalen - manche Treiber besitzen einen DIP-Schalter für die Steuerspannung. Dieser muss entsprechend eingestellt sein.
+
+Alle Achsen besitzen folgende Anschlüsse:
+
+| Anschluss | Funktion                                               |
+| --------- | ------------------------------------------------------ |
+| STEP      | Signal für die Schritte. Manchmal auch PUL(+) genannt. |
+| DIR       | Signal für die Richtung.                               |
+| GND       | GND                                                    |
+
+Außerdem gibt es zwei Anschluss-Terminals für ENA ( bzw. Enable der Treiber) welcher dazu, dient die Motoren Stromlos zu schalten. Alle Motoren teilen sich die ENA Anschlüsse. Möchte man die Enable Funktion nutzen, kann jeder Motortreiber an die ENA Leitung angeschlossen werden.
+
+### Eingänge
+
+* Eingänge schalten entweder mit GND/Masse oder mit 5-24V (über einen Switch direkt auf der Platine umschaltbar)
+* Anzeige der aktuellen Stati über LEDs
+
+{% hint style="info" %}
+**Damit die Eingänge funktionieren, muss eine Spannung am Jumper JP4(COM1) ausgewählt sein! Im normalfall sollte der Jumper auf 5V gesteckt werden.**
+{% endhint %}
+
+Siehe das Kapitel [ein-und-ausgaenge-nutzen.md](../guides-zubehoer/ein-und-ausgaenge-nutzen.md "mention") für weitere Informationen und Beispielen für die Beschaltung.
+
+### Ausgänge
+
+* Ausgänge sind mit Darlington Relays versehen - **schalten also GND/Masse an den OUTs**
+* 500mA pro Ausgang
+* COM-Spannung für Ausgänge wählbar zwischen 5V und Eingangsspannung des Shields (normalerweise 24V)
+* Anzeige der aktuellen Stati über LEDs
+
+Die Spannung der Ausgänge wird am Jumper JP3(COM2) gesetzt.
+
+{% hint style="info" %}
+Beachte, dass die Ausgänge GND schalten! Das bedeutet, dass die Terminals folgendermaßen verdrahtet werden müssen:\
+\- COM2 an den positiven Anschluss (+) des Relais\
+\- OUT an GND des Relais
+{% endhint %}
+
+Siehe das Kapitel [ein-und-ausgaenge-nutzen.md](../guides-zubehoer/ein-und-ausgaenge-nutzen.md "mention") für weitere Informationen und Beispielen für die Beschaltung.
+
 ### Jumper und sonstige Anschlüsse
 
 <table><thead><tr><th width="189">Beschriftung</th><th>Funktion</th></tr></thead><tbody><tr><td><p>JP1<br>ENA-Jumper <br>Beschriftung:</p><p><strong>5V/ENA/GND</strong></p></td><td>Jumper für den Enable der Treiber. Kann gesetzt werden, wenn die Treiber selbst keinen Pullup oder Pulldown Widerstand besitzen.<img src="../../.gitbook/assets/ena.png" alt=""><br>Gilt für alle Treiber.</td></tr><tr><td>JP2<br>Spindel-Jumper<br>Beschriftung: <strong>10V/Sp/5V</strong></td><td>Jumper für den analogen Spindel Ausgang. Wählt zwischen 0-5V und 0-10V</td></tr><tr><td>JP3<br>OUT Jumper<br>Beschriftung:<br><strong>VIN/COM2/5V</strong></td><td>Wählt die Spannung für die Ausgänge 1-6 und den "Spindel Relais OUT" bzw. die Open-Collector Spannung "COM2". Wahlmöglichkeiten sind 5V oder die Boardspannung V-Board. Wenn der Jumper frei gelassen wird, kann auch eine eigene Spannung bis 50V angelegt werden. </td></tr><tr><td>J2<br>Temp-Stecker</td><td>Anschluss für einen oder mehrere DS18B20 Temperatursensoren. Diese können mit dem ESP32 ausgelesen werden.</td></tr></tbody></table>

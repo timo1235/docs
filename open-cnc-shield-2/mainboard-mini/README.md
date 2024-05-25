@@ -56,11 +56,17 @@ Diese werden in den nächsten Abschnitten genauer erklärt. Es müssen nicht all
 
 ### Technische Details
 
+<table><thead><tr><th width="295">Eigenschaft</th><th>Wert</th></tr></thead><tbody><tr><td>Eingangsspannung</td><td>12-32V</td></tr><tr><td>Empfohlene Stromstärke Netzteil</td><td>1 A @ 24V</td></tr><tr><td>Maximale Achsen</td><td>5</td></tr><tr><td>Steuersignale STEP und DIR</td><td>Gepuffert mit bis zu 25mA</td></tr><tr><td>Eingänge </td><td>8</td></tr><tr><td>Spannung Eingänge</td><td><p>Es gibt zwei mögliche Schaltungen (wählbar, mit einem Switch direkt auf der Platine)</p><ul><li>Schalten mit GND (Eingang löst aus, wenn GND anliegt)</li><li>Schalten mit VCC (Eingang löst aus, wenn 5-24V anliegen)</li></ul></td></tr><tr><td>Ausgänge</td><td>6</td></tr><tr><td>Spannung Ausgänge</td><td>Schaltung mit Darlington Transistor Array ULN2003. <br>Spannung max. 50V und max. 500mA pro Ausgang</td></tr><tr><td>Anschlüsse zur Steuerung der Spindelgeschwindigkeit</td><td><ul><li>0-10V Analog</li><li>0-5V Analog</li><li>5V PWM</li></ul></td></tr><tr><td>Anschluss Spindel Ein/Aus</td><td><ul><li>FOR/DCM (Optokoppler Schalter)</li><li>Spindel OUT für Relais (ULN2003 max. 50V und 500mA)</li></ul></td></tr><tr><td>Steuerspannung Motortreiber</td><td>5V</td></tr></tbody></table>
+
 Die schematischen Zeichnungen und DXF Files zu der Platine sind auf Github zu finden:
 
 {% embed url="https://github.com/timo1235/cnc-werkstatt/tree/master/OPEN-CNC-Shield%202.x/OCS2%20mainboard" %}
 
 <figure><img src="../../.gitbook/assets/OCS2 Mini-5-dimensions.png" alt=""><figcaption></figcaption></figure>
 
+### Hinweise Versionen
 
+#### Version 1.2
+
+In der Version 1.2 gibt es leider einen kleinen Beschriftungsfehler. Der Schalter für den Wechsel zwischen GND und VCC bei IN2 ist vertauscht. Es ist daher notwendig, die Beschriftung entsprechend umgekehrt zu interpretieren. Es besteht keine Gefahr, etwas zu beschädigen.
 
