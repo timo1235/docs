@@ -28,7 +28,7 @@
     * [Software](open-cnc-shield-2/mainboard-mini/esp32/software.md)
 * [ControllerModules](open-cnc-shield-2/controllermodules/README.md)
   * [Estlcam](open-cnc-shield-2/controllermodules/estlcam.md)
-  * [Estlcam AVR - New hardware](open-cnc-shield-2/controllermodules/estlcam-1.md)
+  * [Estlcam Klemmenadapter](open-cnc-shield-2/controllermodules/estlcam-1.md)
   * [GRBL](open-cnc-shield-2/controllermodules/grbl/README.md)
     * [GRBL Arduino Mega](open-cnc-shield-2/controllermodules/grbl/grbl-mega.md)
     * [GRBL Arduino Uno](open-cnc-shield-2/controllermodules/grbl/grbl-uno.md)

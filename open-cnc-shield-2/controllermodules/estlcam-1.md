@@ -3,7 +3,7 @@ cover: ../../.gitbook/assets/controllermodule_banner.png
 coverY: 0
 ---
 
-# Estlcam AVR - New hardware
+# Estlcam Klemmenadapter
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-10-26 104322.png" alt=""><figcaption></figcaption></figure>
 
