@@ -48,11 +48,26 @@ Diese Pin Leisten können mit Jumpern versehen werden, um Achsen **unabhängig v
 
 Bei einigen Controllern kann man gleichlaufende Achsen direkt in der Software des Controllers einstellen, aber bei manchen auch nicht. Dafür können dann diese Pin-Header genutzt werden.
 
-#### Beispiel Estlcam mit zwei X und zwei Y Achsen
+#### Beispiel Estlcam mit Arduino Mega und zwei X- und zwei Y Achsen
+
+{% hint style="warning" %}
+Dieses Beispiel gitl nur für das ControllerModule Estlcam mit Arduino Mega! Bei dem ControllerModule Estlcam Klemmenadapter wird die A-Achse bereits für "Y-Rechts"  verwendet.
+{% endhint %}
 
 Estlcam kann nur 3 Achsen steuern. X, Y und Z. Hat man nun aber eine Fräse mit zwei Motoren auf einer Achse wie zum Beispiel der MPCNC oder der LowRider kann man hier die Achsen gleich laufend einstellen. Im folgenden Bild sind die Jumper so gesteckt, dass die Achse A gleichlaufend mit der x-Achse und die Achse B gleichlaufend mit der y-Achse ist.
 
 <figure><img src="../../.gitbook/assets/as_x_y.png" alt=""><figcaption></figcaption></figure>
+
+**Beispiel Estlcam mit Klemmenadapter und zwei X- und zwei Y-Achsen**
+
+Estlcam unterstützt nur drei Achsen: X, Y und Z. Mit dem [Klemmenadapter-Controller](../controllermodules/estlcam-1.md) kann jedoch die Y-Achse separat gesteuert werden, wobei Y-Links und Y-Rechts verfügbar sind ([Details dazu in der Klemmenadapter-Dokumentation](../controllermodules/estlcam-1.md)). Da in diesem Beispiel zwei Achsen jeweils zwei Motoren haben, muss die X-Achse am OCS2 dupliziert werden. Dafür verwenden wir die B-Achse, die wie folgt gejumpert wird:
+
+* Axis B -> STEP X
+* Axis B -> DIR X
+
+Die Y-Achse muss nicht gejumpert werden, da sie bereits über den Klemmenadapter auf Achse A dupliziert ist.
+
+Nun entscheiden du selbst, ob beide Achsen über das OCS2 autosquared werden sollen (dies im Webinterface konfigurieren) oder ob Estlcam die Y-Achse ausrichtet und das OCS2 nur die X-Achse.
 
 #### Beispiel Beamicon mit 4 Achsen und zwei Motoren auf X
 
