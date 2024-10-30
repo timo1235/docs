@@ -90,16 +90,15 @@ Es gibt insgesamt 7 analoge Eingänge auf dem ControllerModule, darunter
 
 ### Frequenz-/Impulszähleingang - 5V TTL (FRQ)
 
+\-- Coming soon --
+
 ### 5V TTL Impulsausgang(FogPulse)
 
 Dieser Ausgang erzeugt präzise getaktete Impulse. Z.B. für Nebelkühlung mit Injektorventilen oder zentrale Schmierstoffdosierung mit Magnetpumpen.
-
-
-
-
 
 ### Technische Details
 
 Die schematischen Zeichnungen und DXF files zu der Platine sind auf Github zu finden:
 
-\-- Coming Soon --
+{% embed url="https://github.com/timo1235/cnc-werkstatt/tree/master/OPEN-CNC-Shield%202.x/OCS2%20modules/ControllerModules/ControllerModule%20Estlcam%20KLemmenadapter%20XL" %}
+
