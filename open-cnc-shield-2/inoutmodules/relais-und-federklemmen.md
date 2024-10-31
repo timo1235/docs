@@ -21,13 +21,13 @@ coverY: 0
 * Eingänge schalten entweder mit GND/Masse oder mit 5-24V (über einen Jumper umschaltbar)
 * 4 Ausgänge(2 mit einem 5A Relais)
 * Ausgänge sind mit Darlington Relays versehen - schalten also GND/Masse an den OUTs
-* 500mA pro Ausgang
+* 200mA pro Ausgang
 * COM-Spannung für Ausgänge wählbar zwischen 5V und Eingangsspannung des OPEN-CNC-Shields (normalerweise 24V)
 * Anzeige der aktuellen Stati über LEDs
 
 ### Technische Daten
 
-<table><thead><tr><th width="421">Eigenschaft</th><th>Wert</th></tr></thead><tbody><tr><td>maximaler Strom Relais-Ausgänge 1 und 2</td><td>jeweils 5A (etwa 1 kW bei 230V)<br></td></tr><tr><td>maximale Spannung Relais Ausgänge 1 und 2</td><td>250VAC / 30VDC</td></tr><tr><td>maximaler Strom Ausgänge 3 und 4</td><td>jeweils 500mA</td></tr><tr><td>maximale Spannung für Ausgänge 3 und 4</td><td>50V - die Spannung kann an COM2 angelegt werden. Der Jumper für COM2 darf in diesem Fall nicht gesetzt sein</td></tr><tr><td>maximale Spannung an Eingängen </td><td>24V</td></tr></tbody></table>
+<table><thead><tr><th width="421">Eigenschaft</th><th>Wert</th></tr></thead><tbody><tr><td>maximaler Strom Relais-Ausgänge 1 und 2</td><td>jeweils 5A (etwa 1 kW bei 230V)<br></td></tr><tr><td>maximale Spannung Relais Ausgänge 1 und 2</td><td>250VAC / 30VDC</td></tr><tr><td>maximaler Strom Ausgänge 3 und 4</td><td>jeweils 200mA</td></tr><tr><td>maximale Spannung für Ausgänge 3 und 4</td><td>50V - die Spannung kann an COM2 angelegt werden. Der Jumper für COM2 darf in diesem Fall nicht gesetzt sein</td></tr><tr><td>maximale Spannung an Eingängen </td><td>24V</td></tr></tbody></table>
 
 Die schematischen Zeichnungen und DXF files zu der Platine sind auf Github zu finden:
 
