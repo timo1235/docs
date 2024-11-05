@@ -55,14 +55,14 @@ Eine neue Funktion der Estlcam-Hardware ermöglicht die individuelle Steuerung e
 
 ### Handrad Jumper
 
-<figure><img src="../../.gitbook/assets/CM_Estlcam_AVR_Handwheel_Jumper.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CM_Klemmenadadapter Handwheel Switch.png" alt="" width="450"><figcaption></figcaption></figure>
 
-Auf dem Controller-Modul befinden sich vier Jumper, die zur Auswahl des angeschlossenen Handrads verwendet werden. Die Jumper lassen sich entweder auf „OCS Handwheel“ oder „Mini-Din Handwheel“ einstellen.
+Auf dem Controller-Modul befindet sich ein Schalter, welcher zur Auswahl des Handrads verwendet wird. Der Schalter kann entweder auf „OCS Handwheel“ oder „Mini-Din Handwheel“ eingestellt werden.
 
 **OCS Handwheel:** Diese Einstellung ermöglicht die Nutzung des Handrads in Estlcam, das an das OCS2 angeschlossen ist. Dabei spielt es keine Rolle, ob das Handrad über ein Panel-Modul oder per WiFi verbunden ist. \
 _Technische Umsetzung (Hintergrundinformation): Auf dem Controller-Modul ist ein Atmega328 integriert, der die Signale vom OCS2 (Joystick, Taster etc.) einliest und über I2C an Estlcam weiterleitet – genauso wie es das originale Estlcam-Handrad macht._
 
-**Mini-Din Handwheel:** In dieser Jumperstellung kann das originale Estlcam-Handrad mit Mini-Din-Stecker genutzt werden.
+**Mini-Din Handwheel:** In dieser Schalterstellung kann das originale Estlcam-Handrad mit Mini-Din-Stecker genutzt werden.
 
 {% hint style="info" %}
 **Hinweis für beide Varianten:** Zuerst die Stromversorgung einschalten und das Handrad anschließen, dann Estlcam starten und die Steuerung programmieren. Im „Programmierfenster“ von Estlcam sollte dann eine Meldung wie „Zusatzmodul Handrad 001“ erscheinen. \
@@ -187,6 +187,59 @@ Dieser Ausgang erzeugt präzise getaktete Impulse. Z.B. für Nebelkühlung mit I
 Das ControllerModule muss in Estlcam als Klemmenadapter eingestellt sein.
 
 Schaue für detaillierte Informationen in die Estlcam Dokumentation: [https://www.estlcam.de/tx.php#install](https://www.estlcam.de/tx.php#install)
+
+### Ersteinrichtung des ControllerModules
+
+{% hint style="warning" %}
+**Muss nur bei selbst produzierten Platinen durchgeführt werden. Alle im Shop erworbenen Platinen haben sowohl den Bootloader für Estlcam als auch die Firmware für den Atmega328 bereits installiert.**
+{% endhint %}
+
+#### AVR Bootloader Aufspielen
+
+**Voraussetzung:**
+
+* Atmel-ICE Programmer([Amazon](https://amzn.to/4eiAK0Y))
+* Bootloader Dateien ([Github](https://github.com/timo1235/cnc-werkstatt/tree/master/OPEN-CNC-Shield%202.x/OCS2%20modules/ControllerModules/ControllerModule%20Estlcam%20KLemmenadapter%20XL))
+
+**Verbindung**:
+
+<div align="center">
+
+<figure><img src="../../.gitbook/assets/CM_Klemmenadapter PDI.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+| Atmel-ICE | ControllerModule Klemmenadapter XL |
+| --------- | ---------------------------------- |
+| PIN 2     | GND                                |
+| PIN 3     | PDI                                |
+| PIN 4     | VCC                                |
+
+1. Das ControllerModule und den Atmel-ICE nach obiger Beschreibung verbinden.
+2. Das ControllerModule muss an 5V angeschlossen sein. Dazu entweder in das OCS2 stecken und dieses mit Strom versorgen oder direkt 5V an einem der Terminals auf dem ControllerModule anschließen.
+3. Danach kann bei angeschlossenem Atmel-ICE programmer die Datei [Prog\_Klemmenadapter\_XL - OCS2.bat](https://github.com/timo1235/cnc-werkstatt/blob/master/OPEN-CNC-Shield%202.x/OCS2%20modules/ControllerModules/ControllerModule%20Estlcam%20KLemmenadapter%20XL/Bootloader/Prog\_Klemmenadapter\_XL%20-%20OCS2.bat) auf dem Computer ausgeführt werden. Diese spielt den Bootloader und die passende EEPROM Konfiguration auf.
+4. Fertig
+
+#### ATMEGA328 Firmware aufspielen
+
+**Voraussetzung**:
+
+* ISP Programmer - ich nutze diesen: [Amazon](https://amzn.to/3NVcfME)
+* die Firmware Dateien ([Github](https://github.com/timo1235/cnc-werkstatt/tree/master/OPEN-CNC-Shield%202.x/OCS2%20modules/ControllerModules/ControllerModule%20Estlcam%20KLemmenadapter%20XL/Atmega328%20Firmware))
+
+**Verbindung**:
+
+Der Programmer kann direkt mit dem ICSP-Header auf dem ControllerModule verbunden werden.
+
+<figure><img src="../../.gitbook/assets/CM_Klemmenadapter ISP.png" alt=""><figcaption></figcaption></figure>
+
+1. Den Sketch in die Arduino IDE kopieren [Sketch-Github](https://github.com/timo1235/cnc-werkstatt/blob/master/OPEN-CNC-Shield%202.x/OCS2%20modules/ControllerModules/ControllerModule%20Estlcam%20KLemmenadapter%20XL/Atmega328%20Firmware/src/main.cpp)
+2. Das richtige Board auswählen (Arduino Nano )
+3. Prozessor auswählen: Atmega328P old Bootlader
+4. Programmer auswählen: USBasp bei obigem Programmer
+5. Burn Bootloader anklicken
+6. Im Menü unter Sketch -> Upload Using Programmer
+7. Fertig
 
 ### Technische Details
 
