@@ -60,7 +60,7 @@ Estlcam kann nur 3 Achsen steuern. X, Y und Z. Hat man nun aber eine Fräse mit 
 
 **Beispiel Estlcam mit Klemmenadapter und zwei X- und zwei Y-Achsen**
 
-Estlcam unterstützt nur drei Achsen: X, Y und Z. Mit dem [Klemmenadapter-Controller](../controllermodules/estlcam-1.md) kann jedoch die Y-Achse separat gesteuert werden, wobei Y-Links und Y-Rechts verfügbar sind ([Details dazu in der Klemmenadapter-Dokumentation](../controllermodules/estlcam-1.md)). Da in diesem Beispiel zwei Achsen jeweils zwei Motoren haben, muss die X-Achse am OCS2 dupliziert werden. Dafür verwenden wir die B-Achse, die wie folgt gejumpert wird:
+Estlcam unterstützt nur drei Achsen: X, Y und Z. Mit dem [Klemmenadapter-Controller](../controllermodules/estlcam-1/) kann jedoch die Y-Achse separat gesteuert werden, wobei Y-Links und Y-Rechts verfügbar sind ([Details dazu in der Klemmenadapter-Dokumentation](../controllermodules/estlcam-1/)). Da in diesem Beispiel zwei Achsen jeweils zwei Motoren haben, muss die X-Achse am OCS2 dupliziert werden. Dafür verwenden wir die B-Achse, die wie folgt gejumpert wird:
 
 * Axis B -> STEP X
 * Axis B -> DIR X

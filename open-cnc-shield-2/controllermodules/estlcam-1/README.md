@@ -1,18 +1,18 @@
 ---
-cover: ../../.gitbook/assets/controllermodule_banner.png
+cover: ../../../.gitbook/assets/controllermodule_banner.png
 coverY: 0
 ---
 
 # Estlcam Klemmenadapter XL
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-10-26 104322.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-10-26 104322.png" alt=""><figcaption></figcaption></figure>
 
 Dieser Controller ist speziell für die Verwendung mit der Software [Estlcam ](https://www.estlcam.de/)konzipiert, die von Christian Knüll entwickelt wurde und die Anforderungen im Hobby- und semiprofessionellen Bereich optimal erfüllt. Das Controller-Modul nutzt die neueste Estlcam-Hardware und bietet die erweiterten Funktionen des Klemmenadapters XL.
 
 ### Überblick
 
 {% hint style="danger" %}
-nur mit Estlcam Version 12.100 oder höher kompatibel! Für ältere Estlcam Versionen kann das [ControllerModule Estlcam mit Arduino Mega](estlcam.md) genutzt werden.
+nur mit Estlcam Version 12.100 oder höher kompatibel! Für ältere Estlcam Versionen kann das [ControllerModule Estlcam mit Arduino Mega](../estlcam.md) genutzt werden.
 {% endhint %}
 
 * 3-Achsen (eine Achse mit zwei individuellen Motoren zum Ausrichten einer Portalfräse über Estlcam)
@@ -28,7 +28,7 @@ nur mit Estlcam Version 12.100 oder höher kompatibel! Für ältere Estlcam Vers
 
 ### Unterstützung der OCS2 Funktionen
 
-<table><thead><tr><th width="313">Möglichkeiten OCS2</th><th width="432">Unterstützung des Estlcam Adapters</th></tr></thead><tbody><tr><td>6 Achsen</td><td><span data-gb-custom-inline data-tag="emoji" data-code="26a0">⚠️</span> Steuerung von 3 Achsen. Die Y-Achse ist auf Y-rechts und Y-Links aufgeteilt. Estlcam bietet für diese Achse eine Autosquaring-Funktion. Weitere Achsen können auf dem <a href="../mainboard-mini/anschluesse-jumper.md#achsenkonfiguration">Shield gleichlaufend konfiguriert </a>werden.</td></tr><tr><td>16 Eingänge</td><td><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span> 16 </td></tr><tr><td>8 Ausgänge</td><td><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span> 8</td></tr><tr><td>Spindelgeschwindigkeitssteuerung 0-5V, 0-10V oder 5V PWM</td><td><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span></td></tr><tr><td>Spindel An/Aus Anschluss zum Schalten eines Relais / Frequenzumrichters</td><td><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span></td></tr><tr><td><strong>Externe Bedienelemente</strong></td><td></td></tr><tr><td>Handrad / Encoder</td><td><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span></td></tr><tr><td>Motor Start Taster</td><td><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span></td></tr><tr><td>Programm Start Taster</td><td><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span></td></tr><tr><td>OK Taster</td><td><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span></td></tr><tr><td>Feedrate (Vorschubgeschwindigkeit)</td><td><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span></td></tr><tr><td>Rotation Speed (Spindelgeschwindigkeit)</td><td><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span></td></tr><tr><td>3-Achsen Joystick </td><td><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span></td></tr></tbody></table>
+<table><thead><tr><th width="313">Möglichkeiten OCS2</th><th width="432">Unterstützung des Estlcam Adapters</th></tr></thead><tbody><tr><td>6 Achsen</td><td><span data-gb-custom-inline data-tag="emoji" data-code="26a0">⚠️</span> Steuerung von 3 Achsen. Die Y-Achse ist auf Y-rechts und Y-Links aufgeteilt. Estlcam bietet für diese Achse eine Autosquaring-Funktion. Weitere Achsen können auf dem <a href="../../mainboard-mini/anschluesse-jumper.md#achsenkonfiguration">Shield gleichlaufend konfiguriert </a>werden.</td></tr><tr><td>16 Eingänge</td><td><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span> 16 </td></tr><tr><td>8 Ausgänge</td><td><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span> 8</td></tr><tr><td>Spindelgeschwindigkeitssteuerung 0-5V, 0-10V oder 5V PWM</td><td><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span></td></tr><tr><td>Spindel An/Aus Anschluss zum Schalten eines Relais / Frequenzumrichters</td><td><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span></td></tr><tr><td>Enable der Treiber Schalten</td><td>Ja, wenn der Jumper J3 auf dem ControllerModule gesetzt ist. ENA ist dann mit Ausgang 9 verbunden.</td></tr><tr><td><strong>Externe Bedienelemente</strong></td><td></td></tr><tr><td>Handrad / Encoder</td><td><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span></td></tr><tr><td>Motor Start Taster</td><td><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span></td></tr><tr><td>Programm Start Taster</td><td><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span></td></tr><tr><td>OK Taster</td><td><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span></td></tr><tr><td>Feedrate (Vorschubgeschwindigkeit)</td><td><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span></td></tr><tr><td>Rotation Speed (Spindelgeschwindigkeit)</td><td><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span></td></tr><tr><td>3-Achsen Joystick </td><td><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span></td></tr></tbody></table>
 
 ### Zusätzliche Funktionen direkt auf dem ControllerModule
 
@@ -44,7 +44,7 @@ nur mit Estlcam Version 12.100 oder höher kompatibel! Für ältere Estlcam Vers
 
 ### Achsen Konfiguration
 
-Eine neue Funktion der Estlcam-Hardware ermöglicht die individuelle Steuerung einer Achse mit zwei Motoren. Dies ist besonders bei Portalfräsen nützlich, um die Ausrichtung der Achse präzise einzustellen. Diese Funktion übernimmt die Aufgabe des Autosquarings, das bislang vom OCS2-System bereitgestellt wurde – allerdings nur für eine Achse. Müssen mehrere Achsen ausgerichtet werden, kann dafür weiterhin die [OCS2 Autosquare Funktion](../guides-zubehoer/autosquaring.md) genutzt werden (unbedingt auf die doppelte Y-Achse bei der Konfiguration achten!)&#x20;
+Eine neue Funktion der Estlcam-Hardware ermöglicht die individuelle Steuerung einer Achse mit zwei Motoren. Dies ist besonders bei Portalfräsen nützlich, um die Ausrichtung der Achse präzise einzustellen. Diese Funktion übernimmt die Aufgabe des Autosquarings, das bislang vom OCS2-System bereitgestellt wurde – allerdings nur für eine Achse. Müssen mehrere Achsen ausgerichtet werden, kann dafür weiterhin die [OCS2 Autosquare Funktion](../../guides-zubehoer/autosquaring.md) genutzt werden (unbedingt auf die doppelte Y-Achse bei der Konfiguration achten!)&#x20;
 
 | Estlcam Achse | OCS2 Achse |
 | ------------- | ---------- |
@@ -55,7 +55,7 @@ Eine neue Funktion der Estlcam-Hardware ermöglicht die individuelle Steuerung e
 
 ### Handrad Jumper
 
-<figure><img src="../../.gitbook/assets/CM_Klemmenadadapter Handwheel Switch.png" alt="" width="450"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CM_Klemmenadadapter Handwheel Switch.png" alt="" width="450"><figcaption></figcaption></figure>
 
 Auf dem Controller-Modul befindet sich ein Schalter, welcher zur Auswahl des Handrads verwendet wird. Der Schalter kann entweder auf „OCS Handwheel“ oder „Mini-Din Handwheel“ eingestellt werden.
 
@@ -74,18 +74,28 @@ Es ist außerdem nicht möglich, das Mini-Din-Handrad und ein OCS2-Handrad gleic
 
 Hier einmal eine Übersicht über die Funktionen und Pins
 
-| Klemmenadapter Pin | OCS2 Pin                           | zusätzliche Info                                                                        |
-| ------------------ | ---------------------------------- | --------------------------------------------------------------------------------------- |
-| Eingänge 1-16      | Eingänge 1-16 an den InOut-Modulen | [ein-und-ausgaenge-nutzen.md](../guides-zubehoer/ein-und-ausgaenge-nutzen.md "mention") |
-| Ausgänge 1-8       | Ausgänge 1-8 an den InOutModulen   | [ein-und-ausgaenge-nutzen.md](../guides-zubehoer/ein-und-ausgaenge-nutzen.md "mention") |
-| Ausgang 9          | ENA                                | mit Ausgang 9 in Estlcam kann der Enable der Treiber auf dem OCS2 geschaltet werden     |
-| STEP X             | STEP X                             |                                                                                         |
-| DIR X              | DIR X                              |                                                                                         |
-| STEP YL            | STEP Y                             |                                                                                         |
-| STEP YR            | STEP A                             |                                                                                         |
-| DIR Y              | DIR Y, DIR A                       |                                                                                         |
-| STEP Z             | STEP Z                             |                                                                                         |
-| DIR Z              | DIR Z                              |                                                                                         |
+| Klemmenadapter Pin | OCS2 Pin                           | zusätzliche Info                                                                                                                                                                       |
+| ------------------ | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Eingänge 1-16      | Eingänge 1-16 an den InOut-Modulen | [ein-und-ausgaenge-nutzen.md](../../guides-zubehoer/ein-und-ausgaenge-nutzen.md "mention")                                                                                             |
+| Ausgänge 1-8       | Ausgänge 1-8 an den InOutModulen   | [ein-und-ausgaenge-nutzen.md](../../guides-zubehoer/ein-und-ausgaenge-nutzen.md "mention")                                                                                             |
+| (Ausgang 9)        | (ENA)                              | Wenn der Jumper J3 gesetzt ist kann mit Ausgang 9 in Estlcam der Enable der Treiber auf dem OCS2 geschaltet werden. Mehr dazu unter [#enable-jumper-j3](./#enable-jumper-j3 "mention") |
+| STEP X             | STEP X                             |                                                                                                                                                                                        |
+| DIR X              | DIR X                              |                                                                                                                                                                                        |
+| STEP YL            | STEP Y                             |                                                                                                                                                                                        |
+| STEP YR            | STEP A                             |                                                                                                                                                                                        |
+| DIR Y              | DIR Y, DIR A                       |                                                                                                                                                                                        |
+| STEP Z             | STEP Z                             |                                                                                                                                                                                        |
+| DIR Z              | DIR Z                              |                                                                                                                                                                                        |
+
+### Enable Jumper J3
+
+<figure><img src="../../../.gitbook/assets/CM_Klemmenadapter Enable Jumper.png" alt=""><figcaption></figcaption></figure>
+
+Wenn der Jumper gesetzt ist, kann Estlcam mit dem Ausgang 9 das „Enable“-Signal des OCS2 auf „High“ setzen. Dadurch sollten die Motoren (bei mir mit externen Treibern) stromlos sein. Bei manchen Treibern kann die Logik jedoch umgekehrt sein.
+
+Damit dies funktioniert, muss der ENA-Jumper auf dem OCS2 mit GND verbunden sein. In diesem Fall ist das „Enable“-Signal der Treiber standardmäßig auf GND geschaltet, und die Treiber sind unter Strom. Estlcam kann dann den Ausgang 9 auf „High“ setzen, um die Motoren stromlos zu schalten.
+
+In Estlcam lässt sich auch einstellen, dass der Ausgang automatisch beim Start des CNC-Programms entsprechend geschaltet wird.
 
 ### Analoge Eingänge auf dem ControllerModule
 
@@ -188,6 +198,8 @@ Das ControllerModule muss in Estlcam als Klemmenadapter eingestellt sein.
 
 Schaue für detaillierte Informationen in die Estlcam Dokumentation: [https://www.estlcam.de/tx.php#install](https://www.estlcam.de/tx.php#install)
 
+
+
 ### Ersteinrichtung des ControllerModules
 
 {% hint style="warning" %}
@@ -205,7 +217,7 @@ Schaue für detaillierte Informationen in die Estlcam Dokumentation: [https://ww
 
 <div align="center">
 
-<figure><img src="../../.gitbook/assets/CM_Klemmenadapter PDI.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CM_Klemmenadapter PDI.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -231,7 +243,7 @@ Schaue für detaillierte Informationen in die Estlcam Dokumentation: [https://ww
 
 Der Programmer kann direkt mit dem ICSP-Header auf dem ControllerModule verbunden werden.
 
-<figure><img src="../../.gitbook/assets/CM_Klemmenadapter ISP.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CM_Klemmenadapter ISP.png" alt=""><figcaption></figcaption></figure>
 
 1. Den Sketch in die Arduino IDE kopieren [Sketch-Github](https://github.com/timo1235/cnc-werkstatt/blob/master/OPEN-CNC-Shield%202.x/OCS2%20modules/ControllerModules/ControllerModule%20Estlcam%20KLemmenadapter%20XL/Atmega328%20Firmware/src/main.cpp)
 2. Das richtige Board auswählen (Arduino Nano )
