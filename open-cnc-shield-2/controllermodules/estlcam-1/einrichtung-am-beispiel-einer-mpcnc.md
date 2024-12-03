@@ -1,9 +1,5 @@
 # Einrichtung am Beispiel einer MPCNC
 
-TODO: Bild mit aufgestecktem Klemmenadapter
-
-&#x20;
-
 Hier beschreibe ich, wie ich das **ControllerModule Estlcam Klemmenadapter XL** an meiner MPCNC angeschlossen habe.
 
 Die Anleitung beinhaltet:
