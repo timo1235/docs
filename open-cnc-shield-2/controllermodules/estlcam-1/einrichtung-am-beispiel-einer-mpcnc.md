@@ -39,11 +39,7 @@ Achtung, bei einigen Treiber gibt es einen Schalter(5V oder 24V) für die Logiks
 
 #### Einstellungen des Treibers
 
-<div align="center">
-
-<figure><img src="../../../.gitbook/assets/DM556.jpg" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="center"><figure><img src="../../../.gitbook/assets/DM556.jpg" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Bei den DM556 Treibern müssen die Schalter SW1, SW2 und SW3 je nach verwendetem Motor eingestellt werden. Ich habe für meine NEMA17 2.1A eingestellt, also:
 
@@ -90,7 +86,7 @@ Siehe [ein-und-ausgaenge-nutzen.md](../../guides-zubehoer/ein-und-ausgaenge-nutz
 
 ### Konfiguration des OCS2 ESP32 für Autosquaring
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ocs2-config-mpcnc.png" alt=""><figcaption></figcaption></figure>
 
 Meine Konfiguration ist im obigen Screenshot zu sehen. Damit ist Autosquaring für die X- und die Y-Achse aktiviert. Zu beachten sind die invertierten Enschalter, sowie, dass die richtigen Achsen ausgewählt sind.&#x20;
 
@@ -98,7 +94,43 @@ Sind die Einstellungen gemacht, können wir unten in dem Webinterface auf "Reboo
 
 ### Estlcam Konfiguration
 
-....
+#### Steuerung
+
+
+
+<figure><img src="../../../.gitbook/assets/MPCNC_Estlcam_Steuerung.png" alt=""><figcaption></figcaption></figure>
+
+Hier einmal das Einstellungsfenster aus Estlcam für meine MPCNC. Die Steps müssen natürlich die Einstellungen an den Stepper Treibern widerspiegeln.
+
+{% hint style="success" %}
+Im Programmierfenster erscheint die Meldung: **"Zusatzmodul erkannt: Handrad 0001"**. Dies weist darauf hin, dass der Handrad-Schalter entweder auf _Mini-DIN_ steht und das originale Handrad erkannt wurde, oder auf _OCS2_ eingestellt ist, sodass ein daran angeschlossenes Handrad verwendet werden kann.
+{% endhint %}
+
+#### Eingänge
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-12-03 140610.png" alt="" width="375"><figcaption></figcaption></figure>
+
+Ich nutze nur die ersten 4 Eingänge für meine Endschalter. Diese sind, wie oben beschrieben als NC angeschlossen, daher müssen die Eingänge in Estlcam invertiert werden.
+
+#### Ausgang 9 / ENA
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-12-03 140624.png" alt="" width="375"><figcaption></figcaption></figure>
+
+Ausgang 9 kann durch setzen des Jumpers auf dem ControllerModule mit ENA der Treiber verbunden werden. Dann kann man die Treiber über Estlcam aktivieren oder deaktivieren. Dies kann auch in den G-Code als Startskript oder ähnliches eingebaut werden.
+
+Ich selbst nutze diese Funktion nicht.
+
+#### Handrad
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-12-03 140639.png" alt="" width="375"><figcaption></figcaption></figure>
+
+Egal, ob es sich um ein originales Handrad oder ein OCS2-Handrad handelt – hier können die verschiedenen Funktionen aktiviert und kalibriert werden.&#x20;
+
+{% hint style="warning" %}
+Wird ein OCS2-Handrad verwendet, wird dringend empfohlen, die integrierte Kalibrierungsfunktion zu nutzen, bevor in Estlcam kalibiert wird.
+{% endhint %}
+
+&#x20;
 
 
 

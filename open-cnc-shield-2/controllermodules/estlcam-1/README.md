@@ -5,7 +5,7 @@ coverY: 0
 
 # Estlcam Klemmenadapter XL
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-10-26 104322.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CM_Estlcam_KLemmen (2).jpg" alt=""><figcaption></figcaption></figure>
 
 Dieser Controller ist speziell für die Verwendung mit der Software [Estlcam ](https://www.estlcam.de/)konzipiert, die von Christian Knüll entwickelt wurde und die Anforderungen im Hobby- und semiprofessionellen Bereich optimal erfüllt. Das Controller-Modul nutzt die neueste Estlcam-Hardware und bietet die erweiterten Funktionen des Klemmenadapters XL.
 
@@ -53,14 +53,14 @@ Eine neue Funktion der Estlcam-Hardware ermöglicht die individuelle Steuerung e
 | YR            | A          |
 | Z             | Z          |
 
-### Handrad Jumper
+### Handrad Schalter
 
 <figure><img src="../../../.gitbook/assets/CM_Klemmenadadapter Handwheel Switch.png" alt="" width="450"><figcaption></figcaption></figure>
 
 Auf dem Controller-Modul befindet sich ein Schalter, welcher zur Auswahl des Handrads verwendet wird. Der Schalter kann entweder auf „OCS Handwheel“ oder „Mini-Din Handwheel“ eingestellt werden.
 
 **OCS Handwheel:** Diese Einstellung ermöglicht die Nutzung des Handrads in Estlcam, das an das OCS2 angeschlossen ist. Dabei spielt es keine Rolle, ob das Handrad über ein Panel-Modul oder per WiFi verbunden ist. \
-_Technische Umsetzung (Hintergrundinformation): Auf dem Controller-Modul ist ein Atmega328 integriert, der die Signale vom OCS2 (Joystick, Taster etc.) einliest und über I2C an Estlcam weiterleitet – genauso wie es das originale Estlcam-Handrad macht._
+&#xNAN;_&#x54;echnische Umsetzung (Hintergrundinformation): Auf dem Controller-Modul ist ein Atmega328 integriert, der die Signale vom OCS2 (Joystick, Taster etc.) einliest und über I2C an Estlcam weiterleitet – genauso wie es das originale Estlcam-Handrad macht._
 
 **Mini-Din Handwheel:** In dieser Schalterstellung kann das originale Estlcam-Handrad mit Mini-Din-Stecker genutzt werden.
 
@@ -69,6 +69,13 @@ _Technische Umsetzung (Hintergrundinformation): Auf dem Controller-Modul ist ein
 \
 Es ist außerdem nicht möglich, das Mini-Din-Handrad und ein OCS2-Handrad gleichzeitig zu verwenden. Nur eines von beiden kann genutzt werden.
 {% endhint %}
+
+{% hint style="danger" %}
+Nicht im laufenden Betrieb zwischen den Handrädern umschalten! Die Steuerung muss in Estlcam nach dem Umschalten neu programmiert werden! \
+Beim Umschalten während laufender Steuerung auf unvorhersehbares Verhalten der Fräse vorbereitet sein!
+{% endhint %}
+
+
 
 ### Pin Mapping
 
@@ -105,13 +112,13 @@ Es gibt insgesamt 7 analoge Eingänge, darunter
 * 2 x 0-20mA Strommessung (Beschriftung 4I, 5I)
 * 2 x 0-10V Spannungsmessung (Beschriftung 6U, 7U)
 
-> * Analoge Sensoren können zur Überwachung von Temperaturen, Drücken, Füllständen und vielem mehr genutzt werden - z.B:
+> - Analoge Sensoren können zur Überwachung von Temperaturen, Drücken, Füllständen und vielem mehr genutzt werden - z.B:
 >   * Überlastschutz für den Fräsmotor durch Überwachung von Spindel- und Kühlwassertemperatur oder Frequenzumrichter Ausgangsleistung...
 >   * Überwachung Vakuum Unterdruck, so dass die Maschine bei Leckagen rechtzeitig stoppt bevor die Haltekraft für das Werkstück zu gering wird...
 >   * Überwachung Druckluft Mindestdruck z.B. um Fehlfunktionen von Werkzeugwechslern oder Spannvorrichtungen zu vermeiden...
 >   * Füllstandsüberwachung für Minimalmengenschmierungen etc...\
 >
-> * **Anschlussklemmen**:
+> - **Anschlussklemmen**:
 >   * GND: Masseanschluss / 0V
 >   * 1R / 2R / 3R: Eingänge 1 bis 3 für Widerstandsmessung...
 >   * 4I / 5I: Eingänge 4 und 5 für Strommessung...
@@ -121,7 +128,7 @@ Es gibt insgesamt 7 analoge Eingänge, darunter
 >       * Spannung abhängig von der am OCS2 angeschlossenen Spannung
 >
 >
-> * **Widerstandsmessung**:
+> - **Widerstandsmessung**:
 >   * Z.B. für
 >     * [Temperatursensoren](https://www.sensorshop24.de/einschraubtemperaturfuehler-mit-m6-gewinde-und-17mm-einbaulaenge) Typ PT1000 (NICHT PT100) oder NTC5K
 >     * [Füllstandsensoren 0-190 Ohm](https://de.aliexpress.com/item/4001224884687.html)
@@ -134,7 +141,7 @@ Es gibt insgesamt 7 analoge Eingänge, darunter
 >       * Anschluss "V-Board" wird für Widerstandsmessungen generell nicht genutzt...
 >
 >
-> * **Strommessung**:
+> - **Strommessung**:
 >   * Z.B. für [Druck und Vakuumsensoren...](https://www.sensorshop24.de/drucktransmitter-g1-4-oder-g1-2-fuer-ueber-und-unterdruck-mit-normstecker-0-10v-4-20ma)
 >   * Manche Frequenzumrichter können auch die Ausgangsleistung oder Spindelstrom als 4-20mA Signal ausgeben...
 >   * Bzw. generell Sensoren und Geräte die das Messergebnis als Strom von 4-20mA (bzw. 0-20mA) ausgeben...
@@ -155,7 +162,7 @@ Es gibt insgesamt 7 analoge Eingänge, darunter
 >         * Verbinde den "Versorgungsspannungsanschluss / +" des Sensors mit "V-Board"
 >
 >
-> * **Spannungsmessung**:
+> - **Spannungsmessung**:
 >   * Z.B. für [Druck und Vakuumsensoren...](https://www.sensorshop24.de/drucktransmitter-g1-4-oder-g1-2-fuer-ueber-und-unterdruck-mit-normstecker-0-10v-4-20ma)
 >   * Manche Frequenzumrichter können auch die Ausgangsleistung oder Spindelstrom als 0-10V Signal ausgeben...
 >   * Bzw. generell Sensoren und Geräte die ihr Messergebnis als Spannung zwischen 0 und 10V ausgeben...
@@ -178,7 +185,7 @@ Es gibt insgesamt 7 analoge Eingänge, darunter
 > * Anschlüsse:
 >   * GND: Masse (schwarzes Kabel beim oben verlinkten Sensor)
 >   * FRQ: 5V TTL Frequenzzählereingang (gelbes Kabel beim oben verlinkten Sensor)
->   * \+5V: 5V zur Versorgung des Sensors (rotes Kabel beim oben verlinkten Sensor)
+>   * +5V: 5V zur Versorgung des Sensors (rotes Kabel beim oben verlinkten Sensor)
 
 **Quelle:** [**https://www.estlcam.de/tx.php#freq**](https://www.estlcam.de/tx.php#freq)
 
@@ -215,11 +222,7 @@ Schaue für detaillierte Informationen in die Estlcam Dokumentation: [https://ww
 
 **Verbindung**:
 
-<div align="center">
-
-<figure><img src="../../../.gitbook/assets/CM_Klemmenadapter PDI.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="center"><figure><img src="../../../.gitbook/assets/CM_Klemmenadapter PDI.png" alt=""><figcaption></figcaption></figure></div>
 
 | Atmel-ICE | ControllerModule Klemmenadapter XL |
 | --------- | ---------------------------------- |
@@ -229,7 +232,7 @@ Schaue für detaillierte Informationen in die Estlcam Dokumentation: [https://ww
 
 1. Das ControllerModule und den Atmel-ICE nach obiger Beschreibung verbinden.
 2. Das ControllerModule muss an 5V angeschlossen sein. Dazu entweder in das OCS2 stecken und dieses mit Strom versorgen oder direkt 5V an einem der Terminals auf dem ControllerModule anschließen.
-3. Danach kann bei angeschlossenem Atmel-ICE programmer die Datei [Prog\_Klemmenadapter\_XL - OCS2.bat](https://github.com/timo1235/cnc-werkstatt/blob/master/OPEN-CNC-Shield%202.x/OCS2%20modules/ControllerModules/ControllerModule%20Estlcam%20KLemmenadapter%20XL/Bootloader/Prog\_Klemmenadapter\_XL%20-%20OCS2.bat) auf dem Computer ausgeführt werden. Diese spielt den Bootloader und die passende EEPROM Konfiguration auf.
+3. Danach kann bei angeschlossenem Atmel-ICE programmer die Datei [Prog\_Klemmenadapter\_XL - OCS2.bat](https://github.com/timo1235/cnc-werkstatt/blob/master/OPEN-CNC-Shield%202.x/OCS2%20modules/ControllerModules/ControllerModule%20Estlcam%20KLemmenadapter%20XL/Bootloader/Prog_Klemmenadapter_XL%20-%20OCS2.bat) auf dem Computer ausgeführt werden. Diese spielt den Bootloader und die passende EEPROM Konfiguration auf.
 4. Fertig
 
 #### ATMEGA328 Firmware aufspielen
@@ -249,7 +252,7 @@ Der Programmer kann direkt mit dem ICSP-Header auf dem ControllerModule verbunde
 2. Das richtige Board auswählen (Arduino Nano )
 3. Prozessor auswählen: Atmega328P old Bootlader
 4. Programmer auswählen: USBasp bei obigem Programmer
-5. Burn Bootloader anklicken
+5. Im Menü unter Tools->Burn Bootloader anklicken
 6. Im Menü unter Sketch -> Upload Using Programmer
 7. Fertig
 

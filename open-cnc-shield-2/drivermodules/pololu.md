@@ -5,15 +5,7 @@ coverY: 0
 
 # Pololu - Aufstecktreiber
 
-<div>
-
-<figure><img src="../../.gitbook/assets/driver pololu-2-1200px (1).jpg" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/driver pololu-3-1200px.jpg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../../.gitbook/assets/driver pololu-2-1200px (1).jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/driver pololu-3-1200px.jpg" alt=""><figcaption></figcaption></figure></div>
 
 Mit diesem DriverModule können Aufstecktreiber verwendet werden. Es funktionieren alle Treiber mit einem Pololu Pinout. Darunter fallen zum Beispiel DRV8825 oder A4988.&#x20;
 
@@ -51,7 +43,7 @@ Der FLT Jumper JP1 kann/muss je nach verwendetem Treiber gesetzt werden:
 
 Das Microstepping kann sich von Treiber zu Treiber unterscheiden. **Im Folgenden beziehe ich mich auf DRV8825 Aufstecktreiber.**
 
-Das Microstepping der Aufstecktreiber wird mit Jumpern eingestellt. Diese befinden sich auf der Platine**,** genau unter den jeweiligen Treibern. Diese Einstellung kann demnach nur erfolgen, wenn die Treiber nicht eingesteckt sind.
+Das Microstepping der Aufstecktreiber wird mit Jumpern eingestellt. Diese befinden sich auf der Platin&#x65;**,** genau unter den jeweiligen Treibern. Diese Einstellung kann demnach nur erfolgen, wenn die Treiber nicht eingesteckt sind.
 
 Mit Microstepping kann man die Schritte des Motors weiter verkleinern. Ein typischer Schrittmotor hat z.B. 200 Schritte für eine volle Umdrehung. Stellt man das Mircostepping nun etwa auf 1/8 Schritt bedeutet dies: 200 × 8 = 1600 – Es werden nun 1600 Schritte für eine volle Drehung benötigt. Je höher die Microstepping Einstellung, desto geringer wird der Haltemoment der Motoren. Generell kann man mit diesen Werten experimentieren, um zu schauen, welche sich am besten für die eigene Maschine eignen. Oft geben Hersteller auch an, wie die Mikroschritte eingestellt werden sollten. Hat man hier eine Einstellung gewählt, muss man diese auch unbedingt der Software mitteilen.
 
