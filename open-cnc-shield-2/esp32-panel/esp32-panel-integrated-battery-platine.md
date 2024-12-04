@@ -1,18 +1,6 @@
 # ESP32 Panel Integrated Battery Platine
 
-<div>
-
-<figure><img src="../../.gitbook/assets/esp32_panel_integrated_battery-1200px.jpg" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/esp32_panel_integrated_battery1-1200px.jpg" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/Handrad-1200px (1).jpg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../../.gitbook/assets/esp32_panel_integrated_battery-1200px.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/esp32_panel_integrated_battery1-1200px.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Handrad-1200px (1).jpg" alt=""><figcaption></figcaption></figure></div>
 
 
 
@@ -77,6 +65,12 @@ Diese schematische Darstellung soll als Hilfe zum Anschließen der einzelnen Bed
 
 Das Schema zeigt die baugleiche ESP32 Panel Platine und kann für die Integrated Battery Platine wiederverwendet werden. Es wurden lediglich die Powerbank Anschlüsse durch zwei 18650 Batterien getauscht.
 
+{% hint style="warning" %}
+Achtung, wenn neue Batterien eingesetzt werden, muss einmal kurz Strom per USB-C angesteckt werden. Erst danach funktioniert der normale Betrieb.
+{% endhint %}
+
+
+
 #### Bild
 
 <figure><img src="../../.gitbook/assets/connection schema.jpg" alt=""><figcaption></figcaption></figure>
@@ -90,4 +84,4 @@ Das Schema zeigt die baugleiche ESP32 Panel Platine und kann für die Integrated
 | Bild                                                                             | Beschreibung                                  | Links                                                                                                                                                                                                                                                                                                                    |
 | -------------------------------------------------------------------------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | <img src="../../.gitbook/assets/Handrad-1200px.jpg" alt="" data-size="original"> | Handrad mit Powerbank                         | <ul><li><a href="https://blog.altholtmann.com/cnc-handrad-open-cnc-shield-2/">Blog Post mit Anleitung</a></li><li><a href="https://www.thingiverse.com/thing:5641305">Thingiverse</a></li></ul>                                                                                                                          |
-| ![](../../.gitbook/assets/ESP32\_Panel\_Coldend\_Front3-500px.jpg)               | Handrad mit Powerbank und ColdEnd32 Elementen | <ul><li><a href="https://www.thingiverse.com/thing:6033990">Thingiverse</a></li><li><a href="https://www.printables.com/model/489073-handwheel-estlcam-coldend-ocs2-wifi">Printables</a></li><li><a href="https://blog.altholtmann.com/esp32-wifi-panel-ocs2-estlcam-coldend/">Blog Post mit Informationen</a></li></ul> |
+| ![](../../.gitbook/assets/ESP32_Panel_Coldend_Front3-500px.jpg)                  | Handrad mit Powerbank und ColdEnd32 Elementen | <ul><li><a href="https://www.thingiverse.com/thing:6033990">Thingiverse</a></li><li><a href="https://www.printables.com/model/489073-handwheel-estlcam-coldend-ocs2-wifi">Printables</a></li><li><a href="https://blog.altholtmann.com/esp32-wifi-panel-ocs2-estlcam-coldend/">Blog Post mit Informationen</a></li></ul> |

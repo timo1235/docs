@@ -12,6 +12,14 @@ Die Anleitung beinhaltet:
 * Steuerung des Enable der Treiber
 * Einstellungen in Estlcam
 
+### Benötigte Komponenten:
+
+* [OPEN-CNC-Shield 2 Mainboard Mini](https://shop.altholtmann.com/OPEN-CNC-Shield-2-Mainboard-Mini/SW10046) oder [OPEN-CNC-Shield 2 Mainboard](https://shop.altholtmann.com/OPEN-CNC-Shield-2-Mainboard/SW10017)
+* [ControllerModule Estlcam Klemmenadapter XL](https://shop.altholtmann.com/ControllerModule-Estlcam-Klemmenadapter-XL/SW10047)
+* 5 x externe Schrittmotortreiber, ich nutze [DM556](https://s.click.aliexpress.com/e/_DCXvp5R)
+
+
+
 ### Anschluss Treiber / Motoren und Endschalter
 
 <figure><img src="../../../.gitbook/assets/OCS2_mini_MPCNC_Connections.png" alt=""><figcaption></figcaption></figure>
