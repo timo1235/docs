@@ -74,6 +74,10 @@ Die Spannungseinstellung sollte im eingeschalteten Zustand vorgenommen werden, d
 
 {% embed url="https://youtu.be/JiJGp7ukrp0?si=d3p4DV8l7nFXp1_t" %}
 
+### TMC2209 mit UART - Sensorless homing
+
+Aktuell gibt es leider kein DriverModule, welches die UART-Pins herausführt, damit diese zum Beispiel mit FluidNC genutzt werden können.&#x20;
+
 ### Technische Details
 
 Die schematischen Zeichnungen und DXF files zu der Platine sind auf Github zu finden:
