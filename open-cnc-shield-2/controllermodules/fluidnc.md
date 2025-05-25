@@ -5,19 +5,7 @@ coverY: 0
 
 # FluidNC
 
-<div>
-
-<figure><img src="../../.gitbook/assets/controller module fluidnc-2-500px.jpg" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/controller module fluidnc-3-500px (1).jpg" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/controller module fluidnc-500px.jpg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../../.gitbook/assets/controller module fluidnc-2-500px.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/controller module fluidnc-3-500px (1).jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/controller module fluidnc-500px.jpg" alt=""><figcaption></figcaption></figure></div>
 
 Dieser Controller ist für den Einsatz von [FluidNC ](http://wiki.fluidnc.com/)gedacht.&#x20;
 
@@ -34,7 +22,7 @@ Dieser Controller ist für den Einsatz von [FluidNC ](http://wiki.fluidnc.com/)g
 * Micro SD Karten Slot
 * Offline Controller fähig (Jobs können direkt von der SD-Karte gestartet werden)
 * Kompatibel mit gängigen GRBL Softwares
-* Anschluss für OLED Display
+* Anschluss für OLED Display (wird leider zukünftig nicht mehr von FluidNC unterstützt. Stattdessen braucht man ein UART Display)
 
 ### Unterstützung des OCS2 Funktionen
 
@@ -100,9 +88,13 @@ Dieser Controller ist für den Einsatz von [FluidNC ](http://wiki.fluidnc.com/)g
 
 Folgendes Pinout steht auf dem ControllerModule zur Verfügung und kann zusätzlich bei Bedarf genutzt werden:
 
-![](../../.gitbook/assets/FluidNC\_Pinout.png)
+![](../../.gitbook/assets/FluidNC_Pinout.png)
 
 ### Beispielkonfiguration für meine MPCNC
+
+<details>
+
+<summary>FluidNC 3.7.13</summary>
 
 ```yaml
 name: "OCS2 FluidNC"
@@ -252,3 +244,7 @@ control:
   macro2_pin: NO_PIN
   macro3_pin: NO_PIN
 ```
+
+
+
+</details>
