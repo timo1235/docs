@@ -94,28 +94,31 @@ Folgendes Pinout steht auf dem ControllerModule zur Verfügung und kann zusätzl
 
 <details>
 
-<summary>FluidNC 3.7.13</summary>
+<summary>FluidNC 3.7.13 - letzter Test unter 3.9.7</summary>
 
 ```yaml
 name: "OCS2 FluidNC"
 board: "OCS2 FluidNC Controller"
 
+planner_blocks: 32
+
 stepping:
   engine: I2S_STREAM
-  idle_ms: 250
-  dir_delay_us: 1
+  idle_ms: 255
+  dir_delay_us: 0
   pulse_us: 4
   disable_delay_us: 0
 
 axes:
-  shared_stepper_disable_pin: i2so.12
+  # Deactivated for more precision
+  # shared_stepper_disable_pin: i2so.12
 
   x:
     steps_per_mm: 50
-    max_rate_mm_per_min: 7000
-    acceleration_mm_per_sec2: 500
-    max_travel_mm: 1000
-    soft_limits: true
+    max_rate_mm_per_min: 9000
+    acceleration_mm_per_sec2: 250
+    # max_travel_mm: 1000
+    # soft_limits: true
 
     homing:
       cycle: 2
@@ -131,22 +134,22 @@ axes:
       hard_limits: true
       pulloff_mm: 5
       stepstick:
-        direction_pin: i2so.1
+        direction_pin: i2so.1:low
         step_pin: i2so.0
     motor1:
       limit_neg_pin: gpio.39:high
       hard_limits: true
       pulloff_mm: 5
       stepstick:
-        direction_pin: i2so.7
+        direction_pin: i2so.7:low
         step_pin: i2so.6
 
   y:
     steps_per_mm: 50
-    max_rate_mm_per_min: 7000
-    acceleration_mm_per_sec2: 500
-    max_travel_mm: 1000
-    soft_limits: true
+    max_rate_mm_per_min: 9000
+    acceleration_mm_per_sec2: 250
+    # max_travel_mm: 1000
+    # soft_limits: true
 
     homing:
       cycle: 2
@@ -203,18 +206,32 @@ spi:
 sdcard:
   cs_pin: gpio.5
   card_detect_pin: NO_PIN
+  frequency_hz: 20000000
+
+start:
+  must_home: false
 
 # I2C for OLED Display
 i2c0:
   sda_pin: gpio.14
   scl_pin: gpio.13
-
 oled:
   i2c_num: 0
   i2c_address: 60
   width: 128
   height: 64
   radio_delay_ms: 1000
+
+# UART for communication with OCS2 when using fluidNC jogging
+# uart2:
+#   txd_pin: gpio.2
+#   rxd_pin: gpio.16
+#   baud: 115200
+#   mode: 8N1
+# uart_channel1:
+#   uart_num: 2
+#   report_interval_ms: 0
+#   message_level: Info
 
 coolant:
   # Ausgang 1
@@ -243,6 +260,7 @@ control:
   macro1_pin: NO_PIN
   macro2_pin: NO_PIN
   macro3_pin: NO_PIN
+
 ```
 
 
