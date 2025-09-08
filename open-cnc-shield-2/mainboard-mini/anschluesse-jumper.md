@@ -32,7 +32,7 @@ Alle Achsen besitzen folgende Anschlüsse:
 | DIR       | Signal für die Richtung.                               |
 | GND       | GND                                                    |
 
-Außerdem gibt es zwei Anschluss-Terminals für ENA ( bzw. Enable der Treiber) welcher dazu, dient die Motoren Stromlos zu schalten. Alle Motoren teilen sich die ENA Anschlüsse. Möchte man die Enable Funktion nutzen, kann jeder Motortreiber an die ENA Leitung angeschlossen werden.
+Außerdem gibt es zwei Anschluss-Terminals für ENA ( bzw. Enable der Treiber) welcher dazu, dient die Motoren Stromlos zu schalten. Alle Motoren teilen sich die ENA Anschlüsse. Möchte man die Enable Funktion nutzen, kann jeder Motortreiber an die ENA Leitung angeschlossen werden. Der ENA-Jumper auf dem Board(JP1) sollte dann so gesetzt sein, dass die Motoren Haltemoment haben (einfach beide Positionen ausprobieren).
 
 ### Eingänge
 
