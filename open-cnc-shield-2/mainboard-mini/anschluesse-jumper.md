@@ -79,7 +79,7 @@ Siehe das Kapitel [ein-und-ausgaenge-nutzen.md](../guides-zubehoer/ein-und-ausga
 <table><thead><tr><th width="80">Pin</th><th>Funktion</th><th width="67">Pin</th><th>Funktion</th></tr></thead><tbody><tr><td>1</td><td>+5V </td><td>2</td><td>GND</td></tr><tr><td>3</td><td>ESP32_D35</td><td>4</td><td>ESP32_D19</td></tr><tr><td>5</td><td>ESP32_D34 - Fn</td><td>6</td><td>ESP32_D4</td></tr><tr><td>7</td><td>Autosquare (siehe Hinweis unten)</td><td>8</td><td>ESP32_D2</td></tr><tr><td>9</td><td>ESP32_SCL</td><td>10</td><td>ESP32_SDA</td></tr><tr><td>11</td><td>ESP32_TX</td><td>12</td><td>ESP32_RX</td></tr></tbody></table>
 
 {% hint style="info" %}
-Um die Autosquare-Funktion an diesem Pinout zu nutzen muss ein Schalter/Taster zwischen GND und dem Autosquare-Pin angeschlossen werden.&#x20;
+Um die Autosquare-Funktion an diesem Pinout zu nutzen muss ein Schalter/Taster zwischen GND und dem Autosquare-Pin angeschlossen werden. Dieser Taster kann parallel zum Autosquare Button des Bedienpanels/Wifi Panels genutzt werden.
 {% endhint %}
 
 ### Achsenkonfiguration
