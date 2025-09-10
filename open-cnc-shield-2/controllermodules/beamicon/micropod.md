@@ -1,33 +1,11 @@
 ---
 cover: ../../../.gitbook/assets/controllermodule_banner.png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Micropod
 
-<div>
-
-<figure><img src="../../../.gitbook/assets/controller beamicon-4-1200px.jpg" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/controller beamicon-7-1200px.jpg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../../../.gitbook/assets/controller beamicon-4-1200px.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/controller beamicon-7-1200px.jpg" alt=""><figcaption></figcaption></figure></div>
 
 Dieser Controller ist für die Verwendung mit dem Beamicon Hardware gedacht. Demnach wird das entsprechende Beamicon Micropod Modul zusätzlich benötigt.
 
