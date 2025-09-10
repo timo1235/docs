@@ -21,4 +21,5 @@ Wird zusätzlich ein **DualAdapter** verwendet, sind diese Eingänge auch an dem
 2. Mit einer feinen/spitzen Zange die im Bild markierten Beinchen des **Optokopplers für die Eingänge** vorsichtig durchtrennen. **Alternativ kann auch der ganze Optokoppler (mit einer Heißluftstation) entfernt werden.**&#x20;
 3. Nach dem Durchtrennen ist die Funktion der Eingänge auf diesem Modul deaktiviert, andere ControllerModules am DualAdapter können sie nun nutzen.
 
-<figure><img src="../../../.gitbook/assets/fluidnc-ltv847.jpg" alt=""><figcaption></figcaption></figure>
+<div data-full-width="true"><figure><img src="../../../.gitbook/assets/fluidnc-ltv847.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/fluidnc-ltv847-1.jpg" alt=""><figcaption></figcaption></figure></div>
+
